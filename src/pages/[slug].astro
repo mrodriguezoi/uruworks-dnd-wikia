@@ -4,6 +4,9 @@ import WikiArchive from '../layouts/WikiArchive.astro';
 import SidebarArticle from '../components/SidebarArticle.astro';
 import MainContentArticle from '../components/MainContentArticle.astro';
 import type { Article } from '../schema/articleSchemas';
+import SearchBar from '../components/SearchBar.astro';
+
+export const prerender = true
 
 export async function getStaticPaths() {
   return articles.map((article) => {
@@ -27,3 +30,4 @@ if (!article) {
     <SidebarArticle slot="sidebar-content" imageUrl={article.content.sidebar.imageUrl} articleName={article.title} characterDetails={article.content.sidebar.characterDetails} eventDetails={article.content.sidebar.eventDetails} geographyDetails={article.content.sidebar.geographyDetails} organizationDetails={article.content.sidebar.organizationDetails} />
     <MainContentArticle title={article.title} slot="main-content" contentArray={article.content.mainContentArray} />	
 </WikiArchive>
+<SearchBar></SearchBar>

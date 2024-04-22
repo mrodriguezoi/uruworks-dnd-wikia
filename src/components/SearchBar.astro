@@ -1,0 +1,41 @@
+---
+
+---
+<!-- TODO: change format -->
+<form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Search articles by title..." autocomplete="off">
+    <button type="submit">Search</button>
+</form>
+  
+<ul id="searchResults"></ul>
+<!-- End TODO -->
+  
+<script>
+    import type { Article } from "../schema/articleSchemas";
+    const form = document.getElementById('searchForm');
+    const input = document.getElementById('searchInput') as HTMLInputElement;
+    const results = document.getElementById('searchResults');
+  
+    form!.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const query = input.value;    
+        // Request Code 
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+        var raw = JSON.stringify({
+            "query": query
+        });
+        var requestOptions : RequestInit = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: 'follow'
+        };
+        const response = await fetch("/api/search", requestOptions);
+        // 
+        const articles = await response.json();
+        results!.innerHTML = articles.map((article : Article ) => 
+            `<li><a href="/${article.slug}">${article.title}</a></li>`
+        ).join('');
+    });
+</script>
