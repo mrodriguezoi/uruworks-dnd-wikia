@@ -1,0 +1,19 @@
+---
+import { type MainContent } from "../schema/articleSchemas";
+
+interface Props {
+    contentArray: Array<MainContent>;
+    slot?: string;
+}
+
+const { contentArray , slot} = Astro.props;
+---
+<div slot={slot}>
+
+{contentArray.map((content) => (
+    <div class="m-4">
+        {content.title ? <h2>{content.title}</h2> : null}
+        <p>{content.text}</p>
+    </div>
+))}
+</div>

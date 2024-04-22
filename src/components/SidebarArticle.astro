@@ -1,0 +1,70 @@
+---
+import { type CharacterOptions , type EventOptions , type GeographyOptions } from "../schema/articleSchemas";
+
+interface Props {
+    slot?: string;
+	imageUrl: string;
+	articleName: string;
+    characterDetails?: CharacterOptions;
+    eventDetails?: EventOptions;
+    geographyDetails?: GeographyOptions;
+}
+
+const { imageUrl , articleName , slot } = Astro.props;
+const character = Astro.props.characterDetails,
+    event = Astro.props.eventDetails,
+    geography = Astro.props.geographyDetails;
+---
+<div slot={slot}>
+
+<img src={imageUrl} alt={articleName}>
+<h3>{articleName}</h3>
+{character ? (
+    <>
+        <h4>Character Details</h4> 
+        <div>
+            <p><b>Status: </b>{character.status}</p>
+        </div>
+        <div>
+            <p><b>Race: </b>{character.race}</p>
+        </div>
+        <div>
+            <p><b>Relationship to Party: </b>{character.alignment}</p>
+        </div>
+        {character.relationships ? <h4>Relationships:</h4>:null}
+        {character.relationships ? character.relationships.map( relationship => (
+            <div>
+                <p><b>{relationship.type}: </b>{relationship.with}</p>
+            </div>
+        )) : null } 
+    </>
+) : null}
+{event ? (
+    <>
+        <h4>Event Details</h4> 
+        <div>
+            <p><b>Type: </b>{event.type}</p>
+        </div>
+        <div>
+            <p><b>Location: </b>{event.location}</p>
+        </div>
+        <div>
+            <p><b>Impact: </b>{event.impact}</p>
+        </div>
+        <div>
+            <p><b>Date: </b>{event.date}</p>
+        </div>  
+    </>
+) : null}
+{geography ? (
+    <>
+        <h4>Event Details</h4> 
+        <div>
+            <p><b>Type: </b>{geography.type}</p>
+        </div>
+        <div>
+            <p><b>Location: </b>{geography.location}</p>
+        </div>
+    </>
+) : null}
+</div>

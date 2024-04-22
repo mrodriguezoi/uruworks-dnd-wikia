@@ -1,0 +1,35 @@
+:root {
+  /* --main-background: #c09061; */
+  --sidebar-background: #e9dbc6;
+}
+
+body {
+  background-color: black;
+}
+
+.background-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/phandelverScene.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.main-container {
+  background-color: white;
+  min-height: calc(100vh - 8rem);
+}
+
+.sidebar-content {
+  background-color: var(--sidebar-background);
+}

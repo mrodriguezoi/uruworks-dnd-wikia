@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "gundren-rockseeker",
+    "title": "Gundren Rockseeker",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/phandelverScene.webp",
+        "characterDetails": {
+          "status": "Alive",
+          "alignment": "Neutral",
+          "race": "Dwarf",
+          "relationships": [
+            {
+              "with": "Nundro Rockseeker",
+              "type": "Brother"
+            },
+            {
+              "with": "Tharden Rockseeker",
+              "type": "Brother"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        { "text": "One of the three Dwarven brothers who rediscovered the Wave Echo Cave." },
+        {
+          "title": "History:",
+          "text": "Brother of Tharden Rockseeker, and of Nundro Rockseeker. He was also a friend to Sildar Hallwinter, a member of the Lords' Alliance. The dwarf and his brothers located Wave Echo Cave, the legendary home of the Forge of Spells. He excitedly rushed back to Neverwinter to gather supplies and gear, and hire a party of adventurers to haul the equipment to Phandalin."
+        }
+      ]
+    }
+  }
+]

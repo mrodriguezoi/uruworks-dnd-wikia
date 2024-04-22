@@ -1,0 +1,30 @@
+---
+import articles from '../data/articles.json';
+import WikiArchive from '../layouts/WikiArchive.astro';
+import SidebarArticle from '../components/SidebarArticle.astro';
+import MainContentArticle from '../components/MainContentArticle.astro';
+import type { Article } from '../schema/articleSchemas';
+
+export async function getStaticPaths() {
+  return articles.map((article) => {
+    return {
+      params: {
+        slug: article.slug
+      }
+    };
+  });
+}
+
+const {slug} = Astro.params;
+const article = articles.find((article) => article.slug === slug) as unknown as Article;
+console.log(article);
+
+if (!article) {
+  return Astro.redirect('/404');
+}
+---
+
+<WikiArchive title={article.title}>  
+    <SidebarArticle slot="sidebar-content" imageUrl={article.content.sidebar.imageUrl} articleName={article.title} characterDetails={article.content.sidebar.characterDetails} />
+    <MainContentArticle slot="main-content" contentArray={article.content.mainContentArray} />	
+</WikiArchive>
