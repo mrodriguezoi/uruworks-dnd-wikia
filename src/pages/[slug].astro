@@ -17,7 +17,6 @@ export async function getStaticPaths() {
 
 const {slug} = Astro.params;
 const article = articles.find((article) => article.slug === slug) as unknown as Article;
-console.log(article);
 
 if (!article) {
   return Astro.redirect('/404');
@@ -25,6 +24,6 @@ if (!article) {
 ---
 
 <WikiArchive title={article.title}>  
-    <SidebarArticle slot="sidebar-content" imageUrl={article.content.sidebar.imageUrl} articleName={article.title} characterDetails={article.content.sidebar.characterDetails} />
-    <MainContentArticle slot="main-content" contentArray={article.content.mainContentArray} />	
+    <SidebarArticle slot="sidebar-content" imageUrl={article.content.sidebar.imageUrl} articleName={article.title} characterDetails={article.content.sidebar.characterDetails} eventDetails={article.content.sidebar.eventDetails} geographyDetails={article.content.sidebar.geographyDetails} organizationDetails={article.content.sidebar.organizationDetails} />
+    <MainContentArticle title={article.title} slot="main-content" contentArray={article.content.mainContentArray} />	
 </WikiArchive>

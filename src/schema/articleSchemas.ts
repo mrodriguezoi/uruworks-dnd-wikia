@@ -10,10 +10,11 @@ interface ArticleContent {
 }
 
 interface SidebarContent {
-  imageUrl: string;
+  imageUrl?: string;
   characterDetails?: CharacterOptions;
   eventDetails?: EventOptions;
   geographyDetails?: GeographyOptions;
+  organizationDetails?: OrganizationOptions;
 }
 
 export interface CharacterOptions {
@@ -43,4 +44,11 @@ export interface GeographyOptions {
 export interface MainContent {
   title?: string;
   text: string;
+}
+
+export interface OrganizationOptions {
+  type: string;
+  location?: string;
+  reach: string;
+  status: string;
 }

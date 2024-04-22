@@ -4,7 +4,7 @@
     "title": "Gundren Rockseeker",
     "content": {
       "sidebar": {
-        "imageUrl": "/phandelverScene.webp",
+        "imageUrl": "/gundren-rockseeker.webp",
         "characterDetails": {
           "status": "Alive",
           "alignment": "Neutral",
@@ -26,6 +26,51 @@
         {
           "title": "History:",
           "text": "Brother of Tharden Rockseeker, and of Nundro Rockseeker. He was also a friend to Sildar Hallwinter, a member of the Lords' Alliance. The dwarf and his brothers located Wave Echo Cave, the legendary home of the Forge of Spells. He excitedly rushed back to Neverwinter to gather supplies and gear, and hire a party of adventurers to haul the equipment to Phandalin."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "phandalin",
+    "title": "Phandalin",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/phandelverScene.webp",
+        "geographyDetails": {
+          "type": "Settlement",
+          "location": "Sword Coast, between the Sword Montains and Neverwinter Woods"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Phandalin was a village in the Sword Coast North that enjoyed much prosperity in the 10th century DR, as it was the closest settlement to the Wave Echo Cave. It was raided by orcs in 961 DR and subsequently abandoned."
+        },
+        {
+          "title": "Re-settlement:",
+          "text": "Phandalin is a modest and architecturally boring town of hard-working frontiersfolk built atop the ruins of the old Phandalin. The town quickly grew to about fifty well-maintained structures built of logs and flagstones with three deep wells providing water. The town is dominated by an apple orchard on the west side and a ruined manor atop a hill to the east. The townsfolk congregate in a small town square and an adjacent town green. When Phandalin was reestablished in the late 15th century DR, at first it had no real functioning government, and the Phandalin Miner's Exchange began acting as a center of records-keeping for local mining claims. The townsfolk also annually elected a 'Townmaster' who served as a judge and mediator as well as kept town records. In 1491 DR, Harbin Wester was the perennial Townmaster."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "phandelver-pact",
+    "title": "Phandelver Pact",
+    "content": {
+      "sidebar": {
+        "organizationDetails": {
+          "type": "Commercial Pact",
+          "location": "Wave Echo Cave",
+          "reach": "Regional",
+          "status": "Disbanded"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "The pact was, initially, an agreement between a gnome and dwarf clan. Later, a group of human spellcasters and those of the town of Phandalin became allied with them. The formal agreement of the pact was essentially that the three parties would share the profits of the Wave Echo Cave. The cave had great mineral wealth, and was highly magical. The human mages, along with the original clans of the pact, bound the magical energy into a forge known as the Forge of Spells. The magical forge could be used to enchant items, such as dwarven weapons and gnomish gadgets."
+        },
+        {
+          "title": "History:",
+          "text": "After the pact was established, all parties benefited greatly. Phandalin, especially, became very prosperous. The benefits of the pact were outlined in the document, The Wonders of Phandalin. In 951 DR, orcs from Uruth Ukrypt laid waste to the entire town of Phandalin leaving only a few burnt out shells behind. All parties of the pact fought together, but were severely outmanned, and were eventually overthrown. The successful pact ceased to exist once the orcish brutes destroyed most of the area. The cavern became lost to history. In 1491 DR, Gundren Rockseeker believed he had found the location of the legendary mines of the Phandelver's Pact."
         }
       ]
     }

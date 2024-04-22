@@ -1,27 +1,29 @@
 ---
-import { type CharacterOptions , type EventOptions , type GeographyOptions } from "../schema/articleSchemas";
+import { type CharacterOptions , type EventOptions , type GeographyOptions , type OrganizationOptions } from "../schema/articleSchemas";
 
 interface Props {
     slot?: string;
-	imageUrl: string;
+	imageUrl?: string;
 	articleName: string;
     characterDetails?: CharacterOptions;
     eventDetails?: EventOptions;
     geographyDetails?: GeographyOptions;
+    organizationDetails?: OrganizationOptions;
 }
 
 const { imageUrl , articleName , slot } = Astro.props;
 const character = Astro.props.characterDetails,
     event = Astro.props.eventDetails,
-    geography = Astro.props.geographyDetails;
+    geography = Astro.props.geographyDetails,
+    organization = Astro.props.organizationDetails,
+    image= Astro.props.imageUrl;
 ---
-<div slot={slot}>
-
-<img src={imageUrl} alt={articleName}>
-<h3>{articleName}</h3>
+<div class="w-[100%]" slot={slot}>
+{image ? (<img src={imageUrl} alt={articleName}>):null}
+<h3 class="h3 text-center">{articleName}</h3>
 {character ? (
     <>
-        <h4>Character Details</h4> 
+        <h4 class="h4">Character Details:</h4> 
         <div>
             <p><b>Status: </b>{character.status}</p>
         </div>
@@ -31,7 +33,7 @@ const character = Astro.props.characterDetails,
         <div>
             <p><b>Relationship to Party: </b>{character.alignment}</p>
         </div>
-        {character.relationships ? <h4>Relationships:</h4>:null}
+        {character.relationships ? <h4 class="h4">Relationships:</h4>:null}
         {character.relationships ? character.relationships.map( relationship => (
             <div>
                 <p><b>{relationship.type}: </b>{relationship.with}</p>
@@ -41,7 +43,7 @@ const character = Astro.props.characterDetails,
 ) : null}
 {event ? (
     <>
-        <h4>Event Details</h4> 
+        <h4 class="h4">Event Details:</h4> 
         <div>
             <p><b>Type: </b>{event.type}</p>
         </div>
@@ -58,12 +60,31 @@ const character = Astro.props.characterDetails,
 ) : null}
 {geography ? (
     <>
-        <h4>Event Details</h4> 
+        <h4 class="h4">Landmark Details:</h4> 
         <div>
             <p><b>Type: </b>{geography.type}</p>
         </div>
         <div>
             <p><b>Location: </b>{geography.location}</p>
+        </div>
+    </>
+) : null}
+{organization ? (
+    <>
+        <h4 class="h4">Organization Details:</h4> 
+        <div>
+            <p><b>Type: </b>{organization.type}</p>
+        </div>
+        <div>
+            <p><b>Reach: </b>{organization.reach}</p>
+        </div>
+        {organization.location ? 
+            <div>
+                <p><b>Location: </b>{organization.location}</p>
+            </div>
+         : null } 
+         <div>
+            <p><b>Status: </b>{organization.status}</p>
         </div>
     </>
 ) : null}

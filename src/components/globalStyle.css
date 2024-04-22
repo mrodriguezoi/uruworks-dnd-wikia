@@ -7,6 +7,7 @@ body {
   background-color: black;
 }
 
+/* Background Styles */
 .background-image {
   position: relative;
   overflow: hidden;
@@ -32,4 +33,36 @@ body {
 
 .sidebar-content {
   background-color: var(--sidebar-background);
+}
+
+.sidebar-content {
+  height: fit-content;
+}
+
+/* Text Styles */
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0, 5rem;
+}
+
+.h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 0, 5rem;
 }
