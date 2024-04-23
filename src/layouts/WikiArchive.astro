@@ -11,12 +11,12 @@ const { title } = Astro.props;
 
 <CustomHead title={title}>
     <Header title={title}> </Header>
-    <div class="article-container flex gap-8">
-    <div class="w-[66%]">
-        <slot name="main-content" />
+    <div class="article-container flex gap-8 min-h-[60vh]">
+        <div class="w-[66%] flex flex-col justify-between">
+            <slot name="main-content" />
+        </div>
+        <div class="w-[33%] p-4 flex flex-col items-center gap-4 sidebar-content">
+            <slot name="sidebar-content" />
+        </div>
     </div>
-    <div class="w-[33%] p-4 flex flex-col items-center gap-4 sidebar-content">
-        <slot name="sidebar-content" />
-    </div>
-</div>
 </CustomHead>

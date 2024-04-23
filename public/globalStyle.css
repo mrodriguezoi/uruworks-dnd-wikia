@@ -32,7 +32,8 @@ body {
   min-height: calc(100vh - 8rem);
 }
 
-.sidebar-content {
+.sidebar-content,
+.related-articles {
   background-color: var(--sidebar-background);
 }
 
@@ -70,6 +71,11 @@ body {
 
 #searchForm {
   height: fit-content;
+}
+
+.footer-item-title {
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 /* TODO: Remove */

@@ -1,0 +1,15 @@
+---
+import type { RelatedArticle } from '../schema/articleSchemas';
+import SearchResultItem from './SearchResultItem.astro';
+
+interface Props {
+    relatedArticles: Array<RelatedArticle>;
+        slot?: string;
+}
+const {relatedArticles , slot} = Astro.props;
+---
+<div slot={slot} class="flex gap-4 overflow-x-auto p-4 related-articles">
+    {relatedArticles.map((article) =><SearchResultItem href={article.slug} title={article.title} description={article.description!} titleClasses='footer-item-title' characterLimit={30}/> )}
+   
+        
+</div>

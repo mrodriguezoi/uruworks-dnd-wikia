@@ -1,14 +1,15 @@
 ---
-import articles from '../data/articles.json';
+import type { Article } from '../schema/articleSchemas';
 import WikiArchive from '../layouts/WikiArchive.astro';
 import SidebarArticle from '../components/SidebarArticle.astro';
 import MainContentArticle from '../components/MainContentArticle.astro';
-import type { Article } from '../schema/articleSchemas';
+import RelatedArticlesFooter from '../components/RelatedArticlesFooter.astro';
 
 export const prerender = true
 
 export async function getStaticPaths() {
-  return articles.map((article) => {
+  let articles = await getAllArticles();
+  return articles.map((article: Article) => {
     return {
       params: {
         slug: article.slug
@@ -16,6 +17,22 @@ export async function getStaticPaths() {
     };
   });
 }
+export async function getAllArticles() {
+    const myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    const raw = JSON.stringify({ "all": true });
+    const requestOptions: RequestInit = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+    };
+    const response = await fetch("http://localhost:4321/api/search", requestOptions);
+    let articles = await response.json();
+    return articles;
+}
+
+const articles: Array<Article> = await getAllArticles() as unknown as Array<Article>;
 
 const {slug} = Astro.params;
 const article = articles.find((article) => article.slug === slug) as unknown as Article;
@@ -28,4 +45,5 @@ if (!article) {
 <WikiArchive title={article.title}>  
     <SidebarArticle slot="sidebar-content" imageUrl={article.content.sidebar.imageUrl} articleName={article.title} characterDetails={article.content.sidebar.characterDetails} eventDetails={article.content.sidebar.eventDetails} geographyDetails={article.content.sidebar.geographyDetails} organizationDetails={article.content.sidebar.organizationDetails} />
     <MainContentArticle title={article.title} slot="main-content" contentArray={article.content.mainContentArray} />	
+    <RelatedArticlesFooter slot="main-content" relatedArticles={article.content.relatedArticles} />	
 </WikiArchive>

@@ -7,6 +7,7 @@ export interface Article {
 interface ArticleContent {
   sidebar: SidebarContent;
   mainContentArray: Array<MainContent>;
+  relatedArticles: Array<RelatedArticle>;
 }
 
 interface SidebarContent {
@@ -51,4 +52,10 @@ export interface OrganizationOptions {
   location?: string;
   reach: string;
   status: string;
+}
+
+export interface RelatedArticle {
+  title: string;
+  slug: string;
+  description?: string;
 }

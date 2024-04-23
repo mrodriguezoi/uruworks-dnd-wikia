@@ -2,6 +2,7 @@
 // Import your types and components
 import type { Article } from '../schema/articleSchemas';
 import WikiHomepage from '../layouts/WikiHomepage.astro';
+import SearchResultItem from '../components/SearchResultItem.astro';
 
 // Initialization
 let articles: Array<Article> = [];
@@ -9,7 +10,7 @@ const { searchParams } = new URL(Astro.request.url);
 const query = searchParams.get('query');
 
 // Function to fetch articles based on the query
-async function getArticlesForQuery(query: string) {
+async function getArticlesForQuery(query: string | null) {
     if (!query) return;
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
@@ -34,7 +35,7 @@ await getArticlesForQuery(query);
     {articles.length > 0 ? (
         <ul class="columns-2" id="query-results">
             {articles.map((article: Article) => (
-                <li class="break-inside-avoid  mb-4" key={article.slug}><a class="h2" href={`/${article.slug}`}>{article.title}</a><p>{article.content.mainContentArray[0].text.substring(0,150)}...</p></li>
+                <SearchResultItem classes="break-inside-avoid  mb-4" href={`/${article.slug}`} title={article.title} description={article.content.mainContentArray[0].text}></SearchResultItem>
             ))}
         </ul>
     ) : (
