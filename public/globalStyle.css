@@ -68,6 +68,10 @@ body {
   margin-top: 0, 5rem;
 }
 
+#searchForm {
+  height: fit-content;
+}
+
 /* TODO: Remove */
 #searchResults {
   color: red;

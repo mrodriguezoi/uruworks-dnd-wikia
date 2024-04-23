@@ -1,0 +1,14 @@
+---
+import CustomHead from "../components/CustomHead.astro";
+import Header from '../components/Header.astro';
+
+interface Props {
+    title: string;
+}
+
+const {title} = Astro.props;
+---
+<CustomHead title={title}> 
+    <Header title={title}> </Header>  
+    <slot/>
+</CustomHead>

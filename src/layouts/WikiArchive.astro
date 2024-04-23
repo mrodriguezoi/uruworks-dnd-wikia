@@ -1,5 +1,6 @@
 ---
 import CustomHead from '../components/CustomHead.astro';
+import Header from '../components/Header.astro';
 
 interface Props {
 	title: string;
@@ -9,7 +10,8 @@ const { title } = Astro.props;
 ---
 
 <CustomHead title={title}>
-<div class="article-container flex gap-8">
+    <Header title={title}> </Header>
+    <div class="article-container flex gap-8">
     <div class="w-[66%]">
         <slot name="main-content" />
     </div>

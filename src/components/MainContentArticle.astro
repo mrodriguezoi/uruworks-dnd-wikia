@@ -1,6 +1,5 @@
 ---
 import { type MainContent } from "../schema/articleSchemas";
-import Header from "./Header.astro";
 
 interface Props {
     contentArray: Array<MainContent>;
@@ -11,7 +10,6 @@ interface Props {
 const { contentArray , slot , title} = Astro.props;
 ---
 <div slot={slot}>
-    <Header title={title}></Header>
 
 {contentArray.map((content) => (
     <div class="m-4">
