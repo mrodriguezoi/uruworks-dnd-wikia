@@ -33,7 +33,8 @@ body {
 }
 
 .sidebar-content,
-.related-articles {
+.related-articles,
+.category-container {
   background-color: var(--sidebar-background);
 }
 
@@ -76,9 +77,4 @@ body {
 .footer-item-title {
   font-size: 1.25rem;
   font-weight: 700;
-}
-
-/* TODO: Remove */
-#searchResults {
-  color: red;
 }

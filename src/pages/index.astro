@@ -5,11 +5,35 @@ import { getCategories , getArticlesOfCategory } from "./api-handler";
 
 const categories = await getCategories();
 
-let articlesByCateogry: Record<string,Array<Article>> = {};
+let articlesByCategory: Record<string,Array<Article>> = {};
 
 for (const category of categories) {
-    articlesByCateogry[category] = await getArticlesOfCategory(category);
+    articlesByCategory[category] = await getArticlesOfCategory(category , 4);
 }
 
+import WikiHomepage from "../layouts/WikiHomepage.astro";
+import SearchResultItem from "../components/SearchResultItem.astro";
 ---
-//TODO: Do this
+
+<WikiHomepage title="Phandelver and Below">
+    <div class="mb-4">
+        <h1 class="h1"> Welcome</h1>
+        <p class="p-4">Welcome to Phandalin! This is the ultimate resource for our Dungeons & Dragons adventures in the quiet little town of Phandalin. Here, you'll find everything from character bios and session recaps to detailed lore and maps of the region. Whether you're a player looking to keep up with the story or a fan of our quests, you'll discover all the secrets and stories that make our campaign unique. Dive into the history, explore side quests, and collaborate with your fellow adventurers as we build our own legendary tale. Happy adventuring!
+
+    </div>
+    <div>
+        <h1 class="h1"> Categories</h1>
+        <ul id="query-results">
+            {Object.entries(articlesByCategory).map(([category, articles]) => (
+                <li class="break-inside-avoid p-4 category-container rounded mb-4">
+                    <a href={`/categories/${category}`} class="h2 border-b border-black mb-4 block">{`${category[0].toUpperCase()}${category.substring(1)}`}</a>
+                    <ul class="lg:columns-2">
+                        {articles.map((article) => (
+                            <SearchResultItem classes="break-inside-avoid" href={`/articles/${article.slug}`} title={article.title} description={article.content.mainContentArray[0].text} />
+                        ))}
+                    </ul>
+                </li>
+            ))}
+        </ul>
+    </div>
+</WikiHomepage>

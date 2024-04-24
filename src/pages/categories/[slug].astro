@@ -1,8 +1,5 @@
 ---
-import WikiHomepage from '../../layouts/WikiHomepage.astro';
-import SearchResultItem from '../../components/SearchResultItem.astro';
 import type { Article } from '../../schema/articleSchemas';
-
 import { getCategories , getArticlesOfCategory } from '../api-handler';
 
 export const prerender = true
@@ -21,6 +18,8 @@ export async function getStaticPaths() {
 const {slug} = Astro.params;
 const articles = await getArticlesOfCategory(slug);
 
+import WikiHomepage from '../../layouts/WikiHomepage.astro';
+import SearchResultItem from '../../components/SearchResultItem.astro';
 ---
 
 <WikiHomepage title=`${(slug as string)[0].toUpperCase()}${(slug as string).substring(1)}`>

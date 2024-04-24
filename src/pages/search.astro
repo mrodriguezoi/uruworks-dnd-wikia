@@ -1,8 +1,6 @@
 ---
 // Import your types and components
 import type { Article } from '../schema/articleSchemas';
-import WikiHomepage from '../layouts/WikiHomepage.astro';
-import SearchResultItem from '../components/SearchResultItem.astro';
 import { queryArticles } from './api-handler';
 
 let articles: Array<Article> = [];
@@ -12,6 +10,9 @@ const query = searchParams.get('query');
 if (query) {
     articles = await queryArticles(query);
 }
+
+import WikiHomepage from '../layouts/WikiHomepage.astro';
+import SearchResultItem from '../components/SearchResultItem.astro';
 ---
 <WikiHomepage title="Search Page">
     <div class="p-4">

@@ -1,12 +1,6 @@
 ---
 import type { Article } from '../../schema/articleSchemas';
-import WikiArchive from '../../layouts/WikiArchive.astro';
-import SidebarArticle from '../../components/SidebarArticle.astro';
-import MainContentArticle from '../../components/MainContentArticle.astro';
-import RelatedArticlesFooter from '../../components/RelatedArticlesFooter.astro';
-
 import { getAllArticles } from '../api-handler';
-
 
 export const prerender = true
 
@@ -28,6 +22,11 @@ const article = articles.find((article) => article.slug === slug) as unknown as 
 if (!article) {
   return Astro.redirect('/404');
 }
+
+import WikiArchive from '../../layouts/WikiArchive.astro';
+import SidebarArticle from '../../components/SidebarArticle.astro';
+import MainContentArticle from '../../components/MainContentArticle.astro';
+import RelatedArticlesFooter from '../../components/RelatedArticlesFooter.astro';
 ---
 
 <WikiArchive title={article.title}>  
