@@ -46,7 +46,8 @@
           "slug": "tharden-rockseeker"
         }
       ]
-    }
+    },
+    "category": "characters"
   },
   {
     "slug": "nundro-rockseeker",
@@ -89,7 +90,8 @@
           "slug": "tharden-rockseeker"
         }
       ]
-    }
+    },
+    "category": "characters"
   },
   {
     "slug": "phandalin",
@@ -117,7 +119,8 @@
           "slug": "phandelver-pact"
         }
       ]
-    }
+    },
+    "category": "locations"
   },
   {
     "slug": "phandelver-pact",
@@ -150,6 +153,7 @@
           "slug": "phandalin"
         }
       ]
-    }
+    },
+    "category": "history"
   }
 ]

@@ -3,39 +3,22 @@
 import type { Article } from '../schema/articleSchemas';
 import WikiHomepage from '../layouts/WikiHomepage.astro';
 import SearchResultItem from '../components/SearchResultItem.astro';
+import { queryArticles } from './api-handler';
 
-// Initialization
 let articles: Array<Article> = [];
 const { searchParams } = new URL(Astro.request.url);
 const query = searchParams.get('query');
 
-// Function to fetch articles based on the query
-async function getArticlesForQuery(query: string | null) {
-    if (!query) return;
-    const myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
-    const raw = JSON.stringify({ "query": query });
-    const requestOptions: RequestInit = {
-        method: 'POST',
-        headers: myHeaders,
-        body: raw,
-        redirect: 'follow'
-    };
-    const response = await fetch("http://localhost:4321/api/search", requestOptions);
-    articles = await response.json();
+if (query) {
+    articles = await queryArticles(query);
 }
-
-// Execute the fetching function
-await getArticlesForQuery(query);
 ---
-
-<!-- Use WikiHomepage component to render the page -->
 <WikiHomepage title="Search Page">
     <div class="p-4">
     {articles.length > 0 ? (
         <ul class="columns-2" id="query-results">
             {articles.map((article: Article) => (
-                <SearchResultItem classes="break-inside-avoid  mb-4" href={`/${article.slug}`} title={article.title} description={article.content.mainContentArray[0].text}></SearchResultItem>
+                <SearchResultItem classes="break-inside-avoid  mb-4" href={`/articles/${article.slug}`} title={article.title} description={article.content.mainContentArray[0].text}></SearchResultItem>
             ))}
         </ul>
     ) : (

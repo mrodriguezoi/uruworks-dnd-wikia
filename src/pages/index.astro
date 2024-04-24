@@ -1,0 +1,15 @@
+---
+import type { Article } from "../schema/articleSchemas";
+
+import { getCategories , getArticlesOfCategory } from "./api-handler";
+
+const categories = await getCategories();
+
+let articlesByCateogry: Record<string,Array<Article>> = {};
+
+for (const category of categories) {
+    articlesByCateogry[category] = await getArticlesOfCategory(category);
+}
+
+---
+//TODO: Do this

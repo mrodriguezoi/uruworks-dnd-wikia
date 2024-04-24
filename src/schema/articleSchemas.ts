@@ -2,6 +2,7 @@ export interface Article {
   title: string;
   content: ArticleContent;
   slug: string;
+  category: string;
 }
 
 interface ArticleContent {

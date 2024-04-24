@@ -1,9 +1,12 @@
 ---
-import type { Article } from '../schema/articleSchemas';
-import WikiArchive from '../layouts/WikiArchive.astro';
-import SidebarArticle from '../components/SidebarArticle.astro';
-import MainContentArticle from '../components/MainContentArticle.astro';
-import RelatedArticlesFooter from '../components/RelatedArticlesFooter.astro';
+import type { Article } from '../../schema/articleSchemas';
+import WikiArchive from '../../layouts/WikiArchive.astro';
+import SidebarArticle from '../../components/SidebarArticle.astro';
+import MainContentArticle from '../../components/MainContentArticle.astro';
+import RelatedArticlesFooter from '../../components/RelatedArticlesFooter.astro';
+
+import { getAllArticles } from '../api-handler';
+
 
 export const prerender = true
 
@@ -17,21 +20,6 @@ export async function getStaticPaths() {
     };
   });
 }
-export async function getAllArticles() {
-    const myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
-    const raw = JSON.stringify({ "all": true });
-    const requestOptions: RequestInit = {
-        method: 'POST',
-        headers: myHeaders,
-        body: raw,
-        redirect: 'follow'
-    };
-    const response = await fetch("http://localhost:4321/api/search", requestOptions);
-    let articles = await response.json();
-    return articles;
-}
-
 const articles: Array<Article> = await getAllArticles() as unknown as Array<Article>;
 
 const {slug} = Astro.params;

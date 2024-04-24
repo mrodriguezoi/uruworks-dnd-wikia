@@ -10,5 +10,5 @@
     "isolatedModules": true,
     "types": ["astro/client"]
   },
-  "include": ["src/**/*", "*.d.ts", "src/pages/api/search.ts"]
+  "include": ["src/**/*", "*.d.ts", "src/pages/api/articles.ts"]
 }
