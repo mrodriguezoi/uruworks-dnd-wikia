@@ -19,7 +19,7 @@ const character = Astro.props.characterDetails,
     image= Astro.props.imageUrl;
 ---
 <div class="w-[100%]" slot={slot}>
-{image ? (<img src={imageUrl} alt={articleName}>):null}
+{image ? (<img class="max-h-[50vh] m-auto" src={imageUrl} alt={articleName}>):null}
 <h3 class="h3 text-center">{articleName}</h3>
 {character ? (
     <>

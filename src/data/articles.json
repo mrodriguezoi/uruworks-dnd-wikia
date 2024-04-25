@@ -34,10 +34,6 @@
           "slug": "wave-echo-cave"
         },
         {
-          "title": "Phandalin",
-          "slug": "phandalin"
-        },
-        {
           "title": "Nundro Rockseeker",
           "slug": "nundro-rockseeker"
         },
@@ -78,8 +74,44 @@
           "slug": "wave-echo-cave"
         },
         {
-          "title": "Phandalin",
-          "slug": "phandalin"
+          "title": "Gundren Rockseeker",
+          "slug": "gundren-rockseeker"
+        },
+        {
+          "title": "Tharden Rockseeker",
+          "slug": "tharden-rockseeker"
+        }
+      ]
+    },
+    "category": "characters"
+  },
+  {
+    "slug": "tharden-rockseeker",
+    "title": "Tharden Rockseeker",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/tharden-rockseeker.webp",
+        "characterDetails": {
+          "status": "Alive",
+          "alignment": "Neutral",
+          "race": "Dwarf",
+          "relationships": [
+            {
+              "with": "Gundren Rockseeker",
+              "type": "Brother"
+            },
+            {
+              "with": "Nundro Rockseeker",
+              "type": "Brother"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [{ "text": "The eldest of the three dwarf brothers who rediscovered Wave Echo Cave." }],
+      "relatedArticles": [
+        {
+          "title": "Wave Echo Cave",
+          "slug": "wave-echo-cave"
         },
         {
           "title": "Gundren Rockseeker",
@@ -110,7 +142,10 @@
         },
         {
           "title": "Re-settlement:",
-          "text": "Phandalin is a modest and architecturally boring town of hard-working frontiersfolk built atop the ruins of the old Phandalin. The town quickly grew to about fifty well-maintained structures built of logs and flagstones with three deep wells providing water. The town is dominated by an apple orchard on the west side and a ruined manor atop a hill to the east. The townsfolk congregate in a small town square and an adjacent town green. When Phandalin was reestablished in the late 15th century DR, at first it had no real functioning government, and the Phandalin Miner's Exchange began acting as a center of records-keeping for local mining claims. The townsfolk also annually elected a 'Townmaster' who served as a judge and mediator as well as kept town records. In 1491 DR, Harbin Wester was the perennial Townmaster."
+          "text": "Phandalin is a modest and architecturally boring town of hard-working frontiersfolk built atop the ruins of the old Phandalin. The town quickly grew to about fifty well-maintained structures built of logs and flagstones with three deep wells providing water. The town is dominated by an apple orchard on the west side and a ruined manor atop a hill to the east. The townsfolk congregate in a small town square and an adjacent town green."
+        },
+        {
+          "text": "When Phandalin was reestablished in the late 15th century DR, at first it had no real functioning government, and the Phandalin Miner's Exchange began acting as a center of records-keeping for local mining claims. The townsfolk also annually elected a 'Townmaster' who served as a judge and mediator as well as kept town records. In 1491 DR, Harbin Wester was the perennial Townmaster."
         }
       ],
       "relatedArticles": [
@@ -130,17 +165,23 @@
         "organizationDetails": {
           "type": "Commercial Pact",
           "location": "Wave Echo Cave",
-          "reach": "Regional",
+          "reach": "Local",
           "status": "Disbanded"
         }
       },
       "mainContentArray": [
         {
-          "text": "The pact was, initially, an agreement between a gnome and dwarf clan. Later, a group of human spellcasters and those of the town of Phandalin became allied with them. The formal agreement of the pact was essentially that the three parties would share the profits of the Wave Echo Cave. The cave had great mineral wealth, and was highly magical. The human mages, along with the original clans of the pact, bound the magical energy into a forge known as the Forge of Spells. The magical forge could be used to enchant items, such as dwarven weapons and gnomish gadgets."
+          "text": "A commercial agreement between the human settlers of Phandalin and the gnomes and dwarves of Wave Echo Cave, established to exploit the natural resources and magical potential of the cave. The association was disbanded when the cave was overrun by orcs in 951 DR. The pact was named after the town of Phandalin, which was the closest settlement to the mine."
         },
         {
           "title": "History:",
-          "text": "After the pact was established, all parties benefited greatly. Phandalin, especially, became very prosperous. The benefits of the pact were outlined in the document, The Wonders of Phandalin. In 951 DR, orcs from Uruth Ukrypt laid waste to the entire town of Phandalin leaving only a few burnt out shells behind. All parties of the pact fought together, but were severely outmanned, and were eventually overthrown. The successful pact ceased to exist once the orcish brutes destroyed most of the area. The cavern became lost to history. In 1491 DR, Gundren Rockseeker believed he had found the location of the legendary mines of the Phandelver's Pact."
+          "text": "In the 10th century DR, clans of dwarves and gnomes made a pact that would later be known as Phandelver's Pact. The pact allowed both of the races to share the riches within the mine of Wave Echo Cave. Many gained from this agreement, including the nearby human settlement of Phandalin."
+        },
+        {
+          "text": "When it was discovered that the cavern had wondrous magical properties, spellcasters from Phandalin allied themselves with the dwarves and gnomes to harness this magical power and use it to its fullest potential. They bound the magic into a forge they called the Forge of Spells, where they crafted magical weapons and other items."
+        },
+        {
+          "text": "However, in 951 DR, the orcs of Uruth Ukrypt came from the north and laid waste to the region. The orcs were aided by mercenary wizards when they attacked Wave Echo Cave, adamant in seizing its riches. The human spellcasters of Phandalin fought alongside the gnomes and dwarves to defend the cave. However, the battle of magic destroyed much of Wave Echo Cave. Few survived the battle and so the location of the cave was lost to history."
         }
       ],
       "relatedArticles": [
@@ -151,6 +192,297 @@
         {
           "title": "Phandalin",
           "slug": "phandalin"
+        }
+      ]
+    },
+    "category": "history"
+  },
+  {
+    "slug": "sildar-hallwinter",
+    "title": "Sildar Hallwinter",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/sildar-hallwinter.webp",
+        "characterDetails": {
+          "status": "Alive",
+          "alignment": "Neutral",
+          "race": "Human",
+          "relationships": [
+            {
+              "with": "Gundren Rockseeker",
+              "type": "Friend"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Sildar is a sellsword and a respected member of the Lords' Alliance. He set off to Phandalin from Neverwinter to escort Gundren Rockseeker, who had recently rediscovered the Wave Echo Cave. Sildar had his own reasons for visiting Phandalin, and wished to find out what was happening with his fellow agent of the Lords' Alliance, Iarno Albrek, with whom he lost contact. He also wanted to help Gundren and his brothers re-open the mine, as well as establish Phandalin as a place of prosperity, as it once was."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Gundren Rockseeker",
+          "slug": "gundren-rockseeker"
+        },
+        {
+          "title": "Iarno Albrek",
+          "slug": "iarno-albrek"
+        },
+        {
+          "title": "Lords' Alliance",
+          "slug": "lords-alliance"
+        }
+      ]
+    },
+    "category": "characters"
+  },
+  {
+    "slug": "wave-echo-cave",
+    "title": "Wave Echo Cave",
+    "content": {
+      "sidebar": {
+        "geographyDetails": {
+          "type": "Cave",
+          "location": "Sword Coast, near Phandalin"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Wave Echo Cave was a great cavern complex within the northern Sword Mountains and the location of the Forge of Spells. It is located somewhere south of Phandalin, within the range's deep vales. The cavern was known for its mineral wealth—notably mithril and platinum—as well as its magical properties."
+        },
+        {
+          "title": "History:",
+          "text": "In the 10th century DR, clans of dwarves and gnomes made a pact that would later be known as Phandelver's Pact (see related article). The pact allowed both of the races to share the riches within the mine of Wave Echo Cave. Many gained from this agreement, including the nearby human settlement of Phandalin. The location of the cave was lost to time after it was overrun by orcs in 951 DR, and it has been a regional attraction for would-be archeologists."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Phandelver Pact",
+          "slug": "phandelver-pact"
+        },
+        {
+          "title": "Phandalin",
+          "slug": "phandalin"
+        }
+      ]
+    },
+    "category": "locations"
+  },
+  {
+    "slug": "iarno-albrek",
+    "title": "Iarno Albrek",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/iarno-albrek.webp",
+        "characterDetails": {
+          "status": "Alive",
+          "alignment": "Neutral",
+          "race": "Human",
+          "relationships": [
+            {
+              "with": "Sildar Hallwinter",
+              "type": "Guildmate"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Iarno Albrek is a human wizard and a member of the Lords' Alliance. He was sent to Phandalin to establish order in the region. He was also tasked with finding out what happened to the Forge of Spells, and to make sure that the mine was reopened."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Sildar Hallwinter",
+          "slug": "sildar-hallwinter"
+        },
+        {
+          "title": "Lords' Alliance",
+          "slug": "lords-alliance"
+        }
+      ]
+    },
+    "category": "characters"
+  },
+  {
+    "slug": "lords-alliance",
+    "title": "Lords' Alliance",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/lords-alliance.webp",
+        "organizationDetails": {
+          "type": "Political Alliance",
+          "location": "Sword Coast",
+          "reach": "Regional",
+          "status": "Active"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "The Lords' Alliance is a coalition of rulers from cities and towns across Faerûn (primarily in the North), who collectively agree that some solidarity is needed to keep evil at bay."
+        },
+        {
+          "text": "The rulers of Waterdeep, Silverymoon, Neverwinter, and other free cities in the region dominate the Alliance, and every lord in the Alliance works for the fate and fortune of his or her own settlement above all others. The agents of the Alliance include sophisticated bards, zealous paladins, talented mages, and grizzled warriors. They are chosen primarily for their loyalty, and are trained to work as spies, diplomats, and warriors."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Sildar Hallwinter",
+          "slug": "sildar-hallwinter"
+        },
+        {
+          "title": "Iarno Albrek",
+          "slug": "iarno-albrek"
+        }
+      ]
+    },
+    "category": "organizations"
+  },
+  {
+    "slug": "mount-hotenow",
+    "title": "Mount Hotenow",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/mount-hotenow.webp",
+        "geographyDetails": {
+          "type": "Volcano",
+          "location": "Sword Coast, near Neverwinter"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Known to the ancient dwarves as Glaurimm, was a volcano amid the Crags mountain range, situated to the northeast of the city of Neverwinter on the Sword Coast North, deep in Neverwinter Wood."
+        },
+        {
+          "title": "Description:",
+          "text": "It was home to a large population of fire elementals, warming the Neverwinter River to the point where it never froze over, even in the heart of winter, giving the city its name. After its eruption (see related article), Mount Hotenow looked like a set of serrated teeth many described as a 'door to the Nine Hells' (or the Elemental Chaos, according to others)."
+        },
+        {
+          "text": "Within Mount Hotenow were largely untapped deposits of alum, nitre, and sal ammoniac. Following the eruption, deposits of rare black diamonds were found in the crater's rim. The volcano also had a tendency to attract creatures like fire giants and red dragons to make their homes near it."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Neverwinter",
+          "slug": "neverwinter"
+        },
+        {
+          "title": "Thundertree",
+          "slug": "thundertree"
+        },
+        {
+          "title": "Mount Hotenow Eruption",
+          "slug": "mount-hotenow-eruption"
+        }
+      ]
+    },
+    "category": "locations"
+  },
+  {
+    "slug": "neverwinter",
+    "title": "Neverwinter",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/neverwinter.webp",
+        "geographyDetails": {
+          "type": "City",
+          "location": "Sword Coast"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Neverwinter, also known as the City of Skilled Hands and the Jewel of the North, was a multi-racial city-state sitting on the northwestern Sword Coast of Faerûn. The city was a member in good standing of the Lords' Alliance."
+        },
+        {
+          "title": "Description:",
+          "text": "The city was so named because, even in winter, the Neverwinter River that flows through it never froze. The city proper was built on the right bank of the river, and the city's walls were punctuated by eight gates. The city was divided into several districts, including the Protector's Enclave, the Blacklake District, the River District, and the Tower District."
+        },
+        {
+          "text": "The city was known for its many craftsmen, and was considered one of the most cosmopolitan and civilized cities in all of Faerûn. The city was also known for its many festivals, including the annual Wintershield festival."
+        },
+        {
+          "title": "Geography:",
+          "text": "Neverwinter stood on the northern Sword Coast, on the High Road between Waterdeep and Luskan. To the east lay the Neverwinter Wood and, at its heart, the volcanic Mount Hotenow."
+        },
+        {
+          "text": "The Neverwinter River was heated by fire elementals living under the volcano before flowing through the forest and the city. It carried its supernatural warmth with it, keeping the river and harbor from freezing up in winter and the gardens green year-round. The heat given off by the river created a permanent warm climate in the immediate area."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Mount Hotenow",
+          "slug": "mount-hotenow"
+        },
+        {
+          "title": "Lords' Alliance",
+          "slug": "lords-alliance"
+        }
+      ]
+    },
+    "category": "locations"
+  },
+  {
+    "slug": "thundertree",
+    "title": "Thundertree",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/thundertree.webp",
+        "geographyDetails": {
+          "type": "Settlement",
+          "location": "Sword Coast, near Neverwinter"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Thundertree was a small village located in the Neverwinter Wood, just north of the city of Neverwinter. The village was abandoned after the eruption of Mount Hotenow, which caused widespread destruction in the area."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Mount Hotenow Eruption",
+          "slug": "mount-hotenow-eruption"
+        },
+        {
+          "title": "Neverwinter",
+          "slug": "neverwinter"
+        }
+      ]
+    },
+    "category": "locations"
+  },
+  {
+    "slug": "mount-hotenow-eruption",
+    "title": "Mount Hotenow Eruption",
+    "content": {
+      "sidebar": {
+        "eventDetails": {
+          "type": "Natural Disaster",
+          "location": "Sword Coast, near Neverwinter",
+          "date": "1451 DR",
+          "impact": "Regional, destruction of Thundertree, heavy damage on Neverwinter"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "The eruption of Mount Hotenow was a catastrophic event that occurred in 1451 DR. The eruption caused widespread destruction in the area, including the destruction of the village of Thundertree and heavy damage to the city of Neverwinter."
+        },
+        {
+          "title": "Description:",
+          "text": "In 1451 DR, a small adventuring party rediscovered the ancient dwarven city of Gauntlgrym beneath the volcano. The party, consisting of Dahlia Sin'felle, Korvin Dor'crae, Valindra Shadowmantle, Athrogate, and Jarlaxle Baenre, made it all the way to the legendary forges. There, the latter two were betrayed by their Thayan allies, with Athrogate hypnotically forced to activate the forge."
+        },
+        {
+          "text": "This briefly awoke the primordial Maegera, who, in a fit of rage, released a burst of energy so powerful that it forced the eruption of the volcano. The resulting earthquake and combination of smoke and lava destroyed much of Neverwinter, killing thousands. The eruption entirely destroyed the settlement of Thundertree."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Mount Hotenow",
+          "slug": "mount-hotenow"
+        },
+        {
+          "title": "Thundertree",
+          "slug": "thundertree"
         }
       ]
     },

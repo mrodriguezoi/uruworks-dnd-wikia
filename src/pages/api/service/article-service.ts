@@ -8,6 +8,8 @@ class ArticleService {
     this.map = new Map(articles.map((article) => [article.title, article]));
     this.categories = [];
     articles.forEach((article: Article) => {
+      if (article.content.relatedArticles.length > 3)
+        console.warn(`Article ${article.title} has more than 3 related articles`);
       article.content.relatedArticles.forEach((relatedArticle) => {
         const relatedArticleData = this.map.get(relatedArticle.title);
         if (relatedArticleData && relatedArticleData.content.mainContentArray.length > 0) {

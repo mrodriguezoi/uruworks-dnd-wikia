@@ -8,7 +8,7 @@ interface Props {
 }
 const {relatedArticles , slot} = Astro.props;
 ---
-<div slot={slot} class="flex gap-4 overflow-x-auto p-4 related-articles">
+<div slot={slot} class="flex gap-4 overflow-x-auto p-4 related-articles justify-around">
     {relatedArticles.map((article) =><SearchResultItem href={article.slug} title={article.title} description={article.description!} titleClasses='footer-item-title' characterLimit={30}/> )}
    
         
