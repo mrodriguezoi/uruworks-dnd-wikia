@@ -5,7 +5,7 @@ class ArticleService {
   private map: Map<string, Article>;
   private categories: Array<string>;
   constructor() {
-    this.map = new Map(articles.map((article) => [article.title, article]));
+    this.map = new Map(articles.map((article: Article) => [article.title, article]));
     this.categories = [];
     articles.forEach((article: Article) => {
       if (article.content.relatedArticles.length > 3)
