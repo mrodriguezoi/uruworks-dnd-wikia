@@ -1,4 +1,4 @@
-import type { Article } from "../../../schema/articleSchemas";
+import type { Article } from "../../schema/articleSchemas";
 import articles from "../../../data/articles.json";
 
 class ArticleService {

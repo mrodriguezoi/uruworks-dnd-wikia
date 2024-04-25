@@ -1,14 +1,13 @@
 ---
 import type { Article } from "../schema/articleSchemas";
+import { articleService } from "./service/article-service";
 
-import { getCategories , getArticlesOfCategory } from "./api-handler";
-
-const categories = await getCategories();
+const categories = articleService.getCategories();
 
 let articlesByCategory: Record<string,Array<Article>> = {};
 
 for (const category of categories) {
-    articlesByCategory[category] = await getArticlesOfCategory(category , 4);
+    articlesByCategory[category] = articleService.getArticlesOfCategory(category , 4);
 }
 
 import WikiHomepage from "../layouts/WikiHomepage.astro";

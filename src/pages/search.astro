@@ -1,14 +1,13 @@
 ---
-// Import your types and components
 import type { Article } from '../schema/articleSchemas';
-import { queryArticles } from './api-handler';
+import { articleService } from './service/article-service';
 
 let articles: Array<Article> = [];
 const { searchParams } = new URL(Astro.request.url);
 const query = searchParams.get('query');
 
 if (query) {
-    articles = await queryArticles(query);
+    articles = articleService.getArticlesByTitle(query);
 }
 
 import WikiHomepage from '../layouts/WikiHomepage.astro';

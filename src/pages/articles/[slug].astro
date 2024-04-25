@@ -1,11 +1,12 @@
 ---
 import type { Article } from '../../schema/articleSchemas';
-import { getAllArticles } from '../api-handler';
+// import { getAllArticles } from '../api-handler';
+import { articleService } from '../service/article-service';
 
 export const prerender = true
 
 export async function getStaticPaths() {
-  let articles = await getAllArticles();
+  let articles = articleService.getAllArticles();
   return articles.map((article: Article) => {
     return {
       params: {
@@ -13,8 +14,9 @@ export async function getStaticPaths() {
       }
     };
   });
+  
 }
-const articles: Array<Article> = await getAllArticles() as unknown as Array<Article>;
+const articles: Array<Article> = articleService.getAllArticles() as unknown as Array<Article>;
 
 const {slug} = Astro.params;
 const article = articles.find((article) => article.slug === slug) as unknown as Article;

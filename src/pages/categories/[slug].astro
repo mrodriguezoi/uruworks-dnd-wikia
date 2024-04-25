@@ -1,11 +1,11 @@
 ---
 import type { Article } from '../../schema/articleSchemas';
-import { getCategories , getArticlesOfCategory } from '../api-handler';
+import { articleService } from '../service/article-service';
 
 export const prerender = true
 
 export async function getStaticPaths() {
-  let categories = await getCategories();
+  let categories = articleService.getCategories();
   return categories.map((category: string) => {
     return {
       params: {
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const {slug} = Astro.params;
-const articles = await getArticlesOfCategory(slug);
+const articles = articleService.getAllArticlesOfCategory(slug);
 
 import WikiHomepage from '../../layouts/WikiHomepage.astro';
 import SearchResultItem from '../../components/SearchResultItem.astro';
