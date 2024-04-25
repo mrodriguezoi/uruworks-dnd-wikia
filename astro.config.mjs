@@ -2,10 +2,12 @@ import { defineConfig } from "astro/config";
 
 import tailwind from "@astrojs/tailwind";
 
-// https://astro.build/config
+import vercelServerless from "@astrojs/vercel/serverless";
+
 export default defineConfig({
   site: "http://localhost:4321",
   base: "/",
   integrations: [tailwind()],
   output: "server",
+  adapter: vercelServerless({ maxDuration: 8 }),
 });
