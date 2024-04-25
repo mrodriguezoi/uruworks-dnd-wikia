@@ -1,5 +1,5 @@
 import type { Article } from "../../schema/articleSchemas";
-import articles from "../../../data/articles.json";
+import articles from "../../data/articles.json";
 
 class ArticleService {
   private map: Map<string, Article>;
