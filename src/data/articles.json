@@ -6,31 +6,31 @@
       "sidebar": {
         "imageUrl": "/gundren-rockseeker.webp",
         "characterDetails": {
-          "status": "Alive",
+          "status": "Vivo",
           "alignment": "Neutral",
-          "race": "Dwarf",
+          "race": "Enano",
           "relationships": [
             {
               "with": "Nundro Rockseeker",
-              "type": "Brother"
+              "type": "Hermano"
             },
             {
               "with": "Tharden Rockseeker",
-              "type": "Brother"
+              "type": "Hermano"
             }
           ]
         }
       },
       "mainContentArray": [
-        { "text": "One of the three Dwarven brothers who rediscovered the Wave Echo Cave." },
+        { "text": "Uno de los tres hermanos enanos que redescubrieron la Cueva del Oleaje." },
         {
-          "title": "History:",
-          "text": "Brother of Tharden Rockseeker, and of Nundro Rockseeker. He was also a friend to Sildar Hallwinter, a member of the Lords' Alliance. The dwarf and his brothers located Wave Echo Cave, the legendary home of the Forge of Spells. He excitedly rushed back to Neverwinter to gather supplies and gear, and hire a party of adventurers to haul the equipment to Phandalin."
+          "title": "Historia:",
+          "text": "Hermano de Tharden Rockseeker y de Nundro Rockseeker. También es amigo de Sildar Hallwinter, miembro de la Alianza de los Lords. El enano y sus hermanos localizaron la Cueva del Oleaje, el hogar legendario de la Forja de los Hechizos. Él regresó emocionado a Neverwinter para reunir suministros y equipo, y contratar a un grupo de aventureros para transportar el equipo a Phandalin."
         }
       ],
       "relatedArticles": [
         {
-          "title": "Wave Echo Cave",
+          "title": "Cueva del Oleaje",
           "slug": "wave-echo-cave"
         },
         {
@@ -43,7 +43,7 @@
         }
       ]
     },
-    "category": "characters"
+    "category": "personajes"
   },
   {
     "slug": "nundro-rockseeker",
@@ -52,25 +52,27 @@
       "sidebar": {
         "imageUrl": "/nundro-rockseeker.webp",
         "characterDetails": {
-          "status": "Alive",
+          "status": "Vivo",
           "alignment": "Neutral",
-          "race": "Dwarf",
+          "race": "Enano",
           "relationships": [
             {
               "with": "Gundren Rockseeker",
-              "type": "Brother"
+              "type": "Hermano"
             },
             {
               "with": "Tharden Rockseeker",
-              "type": "Brother"
+              "type": "Hermano"
             }
           ]
         }
       },
-      "mainContentArray": [{ "text": "The youngest of the three dwarf brothers who rediscovered Wave Echo Cave." }],
+      "mainContentArray": [
+        { "text": "El más joven de los tres hermanos enanos que redescubrieron la Cueva del Oleaje." }
+      ],
       "relatedArticles": [
         {
-          "title": "Wave Echo Cave",
+          "title": "Cueva del Oleaje",
           "slug": "wave-echo-cave"
         },
         {
@@ -83,7 +85,7 @@
         }
       ]
     },
-    "category": "characters"
+    "category": "personajes"
   },
   {
     "slug": "tharden-rockseeker",
@@ -92,25 +94,25 @@
       "sidebar": {
         "imageUrl": "/tharden-rockseeker.webp",
         "characterDetails": {
-          "status": "Alive",
+          "status": "Vivo",
           "alignment": "Neutral",
-          "race": "Dwarf",
+          "race": "Enano",
           "relationships": [
             {
               "with": "Gundren Rockseeker",
-              "type": "Brother"
+              "type": "Hermano"
             },
             {
               "with": "Nundro Rockseeker",
-              "type": "Brother"
+              "type": "Hermano"
             }
           ]
         }
       },
-      "mainContentArray": [{ "text": "The eldest of the three dwarf brothers who rediscovered Wave Echo Cave." }],
+      "mainContentArray": [{ "text": "El mayor de los tres hermanos enanos que redescubrieron la Cueva del Oleaje." }],
       "relatedArticles": [
         {
-          "title": "Wave Echo Cave",
+          "title": "Cueva del Oleaje",
           "slug": "wave-echo-cave"
         },
         {
@@ -123,7 +125,7 @@
         }
       ]
     },
-    "category": "characters"
+    "category": "personajes"
   },
   {
     "slug": "phandalin",
@@ -132,61 +134,61 @@
       "sidebar": {
         "imageUrl": "/phandelver-scene.webp",
         "geographyDetails": {
-          "type": "Settlement",
-          "location": "Sword Coast, between the Sword Montains and Neverwinter Woods"
+          "type": "Asentamiento",
+          "location": "Costa de la Espada, entre las Montañas de la Espada y los Bosques de Neverwinter"
         }
       },
       "mainContentArray": [
         {
-          "text": "Phandalin was a village in the Sword Coast North that enjoyed much prosperity in the 10th century DR, as it was the closest settlement to the Wave Echo Cave. It was raided by orcs in 961 DR and subsequently abandoned."
+          "text": "Phandalin era un pueblo en la Costa de la Espada Norte que gozó de mucha prosperidad en el siglo X DR, ya que era el asentamiento más cercano a la Cueva del Oleaje. Fue asaltado por orcos en 961 DR y posteriormente abandonado."
         },
         {
-          "title": "Re-settlement:",
-          "text": "Phandalin is a modest and architecturally boring town of hard-working frontiersfolk built atop the ruins of the old Phandalin. The town quickly grew to about fifty well-maintained structures built of logs and flagstones with three deep wells providing water. The town is dominated by an apple orchard on the west side and a ruined manor atop a hill to the east. The townsfolk congregate in a small town square and an adjacent town green."
+          "title": "Reasentamiento:",
+          "text": "Phandalin es un pueblo modesto y arquitectónicamente aburrido de pioneros trabajadores construido sobre las ruinas del antiguo Phandalin. El pueblo creció rápidamente hasta tener alrededor de cincuenta estructuras bien mantenidas construidas con troncos y piedras planas con tres pozos profundos que proporcionan agua. El pueblo está dominado por un huerto de manzanos en el lado oeste y una mansión en ruinas en una colina al este. Los habitantes del pueblo se congregan en una pequeña plaza del pueblo y en un espacio verde adyacente."
         },
         {
-          "text": "When Phandalin was reestablished in the late 15th century DR, at first it had no real functioning government, and the Phandalin Miner's Exchange began acting as a center of records-keeping for local mining claims. The townsfolk also annually elected a 'Townmaster' who served as a judge and mediator as well as kept town records. In 1491 DR, Harbin Wester was the perennial Townmaster."
+          "text": "Cuando Phandalin fue reestablecido a finales del siglo XV DR, al principio no tenía un gobierno realmente funcional, y la Bolsa de Mineros de Phandalin comenzó a actuar como un centro de registro para las reclamaciones mineras locales. Los habitantes también elegían anualmente a un 'Maestro del Pueblo' que actuaba como juez y mediador, así como mantenía los registros del pueblo. En 1491 DR, Harbin Wester era el Maestro del Pueblo perenne."
         }
       ],
       "relatedArticles": [
         {
-          "title": "Phandelver Pact",
+          "title": "Pacto de Phandelver",
           "slug": "phandelver-pact"
         }
       ]
     },
-    "category": "locations"
+    "category": "ubicaciones"
   },
   {
     "slug": "phandelver-pact",
-    "title": "Phandelver Pact",
+    "title": "Pacto de Phandelver",
     "content": {
       "sidebar": {
         "organizationDetails": {
-          "type": "Commercial Pact",
-          "location": "Wave Echo Cave",
+          "type": "Pacto Comercial",
+          "location": "Cueva del Oleaje",
           "reach": "Local",
-          "status": "Disbanded"
+          "status": "Disuelto"
         }
       },
       "mainContentArray": [
         {
-          "text": "A commercial agreement between the human settlers of Phandalin and the gnomes and dwarves of Wave Echo Cave, established to exploit the natural resources and magical potential of the cave. The association was disbanded when the cave was overrun by orcs in 951 DR. The pact was named after the town of Phandalin, which was the closest settlement to the mine."
+          "text": "Un acuerdo comercial entre los colonos humanos de Phandalin y los gnomos y enanos de la Cueva del Oleaje, establecido para explotar los recursos naturales y el potencial mágico de la cueva. La asociación se disolvió cuando la cueva fue invadida por orcos en 951 DR. El pacto lleva el nombre del pueblo de Phandalin, que era el asentamiento más cercano a la mina."
         },
         {
-          "title": "History:",
-          "text": "In the 10th century DR, clans of dwarves and gnomes made a pact that would later be known as Phandelver's Pact. The pact allowed both of the races to share the riches within the mine of Wave Echo Cave. Many gained from this agreement, including the nearby human settlement of Phandalin."
+          "title": "Historia:",
+          "text": "En el siglo X DR, clanes de enanos y gnomos hicieron un pacto que más tarde sería conocido como el Pacto de Phandelver. El pacto permitía que ambas razas compartieran las riquezas dentro de la mina de la Cueva del Oleaje. Muchos se beneficiaron de este acuerdo, incluido el asentamiento humano cercano de Phandalin."
         },
         {
-          "text": "When it was discovered that the cavern had wondrous magical properties, spellcasters from Phandalin allied themselves with the dwarves and gnomes to harness this magical power and use it to its fullest potential. They bound the magic into a forge they called the Forge of Spells, where they crafted magical weapons and other items."
+          "text": "Cuando se descubrió que la caverna tenía propiedades mágicas maravillosas, los hechiceros de Phandalin se aliaron con los enanos y gnomos para aprovechar este poder mágico y utilizarlo a su máximo potencial. Encerraron la magia en una forja que llamaron la Forja de los Hechizos, donde fabricaron armas mágicas y otros objetos."
         },
         {
-          "text": "However, in 951 DR, the orcs of Uruth Ukrypt came from the north and laid waste to the region. The orcs were aided by mercenary wizards when they attacked Wave Echo Cave, adamant in seizing its riches. The human spellcasters of Phandalin fought alongside the gnomes and dwarves to defend the cave. However, the battle of magic destroyed much of Wave Echo Cave. Few survived the battle and so the location of the cave was lost to history."
+          "text": "Sin embargo, en 951 DR, los orcos de Uruth Ukrypt vinieron desde el norte y devastaron la región. Los orcos fueron ayudados por magos mercenarios cuando atacaron la Cueva del Oleaje, decididos a apoderarse de sus riquezas. Los hechiceros humanos de Phandalin lucharon junto a los enanos y gnomos para defender la cueva. Sin embargo, la batalla mágica destruyó gran parte de la Cueva del Oleaje. Pocos sobrevivieron la batalla y así la ubicación de la cueva se perdió en la historia."
         }
       ],
       "relatedArticles": [
         {
-          "title": "Wave Echo Cave",
+          "title": "Cueva del Oleaje",
           "slug": "wave-echo-cave"
         },
         {
@@ -195,7 +197,7 @@
         }
       ]
     },
-    "category": "history"
+    "category": "historia"
   },
   {
     "slug": "sildar-hallwinter",
@@ -204,20 +206,20 @@
       "sidebar": {
         "imageUrl": "/sildar-hallwinter.webp",
         "characterDetails": {
-          "status": "Alive",
+          "status": "Vivo",
           "alignment": "Neutral",
-          "race": "Human",
+          "race": "Humano",
           "relationships": [
             {
               "with": "Gundren Rockseeker",
-              "type": "Friend"
+              "type": "Amigo"
             }
           ]
         }
       },
       "mainContentArray": [
         {
-          "text": "Sildar is a sellsword and a respected member of the Lords' Alliance. He set off to Phandalin from Neverwinter to escort Gundren Rockseeker, who had recently rediscovered the Wave Echo Cave. Sildar had his own reasons for visiting Phandalin, and wished to find out what was happening with his fellow agent of the Lords' Alliance, Iarno Albrek, with whom he lost contact. He also wanted to help Gundren and his brothers re-open the mine, as well as establish Phandalin as a place of prosperity, as it once was."
+          "text": "Sildar es un mercenario y un miembro respetado de la Alianza de los Lords. Partió hacia Phandalin desde Neverwinter para escoltar a Gundren Rockseeker, quien había redescubierto recientemente la Cueva del Oleaje. Sildar tenía sus propios motivos para visitar Phandalin, y deseaba averiguar qué estaba sucediendo con su compañero agente de la Alianza de los Lords, Iarno Albrek, con quien había perdido contacto. También quería ayudar a Gundren y a sus hermanos a reabrir la mina, así como establecer Phandalin como un lugar de prosperidad, como lo fue en el pasado."
         }
       ],
       "relatedArticles": [
@@ -230,35 +232,35 @@
           "slug": "iarno-albrek"
         },
         {
-          "title": "Lords' Alliance",
+          "title": "Alianza de los Lords",
           "slug": "lords-alliance"
         }
       ]
     },
-    "category": "characters"
+    "category": "personajes"
   },
   {
     "slug": "wave-echo-cave",
-    "title": "Wave Echo Cave",
+    "title": "Cueva del Oleaje",
     "content": {
       "sidebar": {
         "geographyDetails": {
-          "type": "Cave",
-          "location": "Sword Coast, near Phandalin"
+          "type": "Cueva",
+          "location": "Costa de la Espada, cerca de Phandalin"
         }
       },
       "mainContentArray": [
         {
-          "text": "Wave Echo Cave was a great cavern complex within the northern Sword Mountains and the location of the Forge of Spells. It is located somewhere south of Phandalin, within the range's deep vales. The cavern was known for its mineral wealth—notably mithril and platinum—as well as its magical properties."
+          "text": "La Cueva del Oleaje era un gran complejo de cavernas dentro de las Montañas Espada del norte y el lugar de la Forja de los Hechizos. Está ubicada en algún lugar al sur de Phandalin, en los valles profundos de la cordillera. La caverna era conocida por su riqueza mineral, notablemente mithril y platino, así como por sus propiedades mágicas."
         },
         {
-          "title": "History:",
-          "text": "In the 10th century DR, clans of dwarves and gnomes made a pact that would later be known as Phandelver's Pact (see related article). The pact allowed both of the races to share the riches within the mine of Wave Echo Cave. Many gained from this agreement, including the nearby human settlement of Phandalin. The location of the cave was lost to time after it was overrun by orcs in 951 DR, and it has been a regional attraction for would-be archeologists."
+          "title": "Historia:",
+          "text": "En el siglo X DR, clanes de enanos y gnomos hicieron un pacto que más tarde sería conocido como el Pacto de Phandelver (ver artículo relacionado). El pacto permitió que ambas razas compartieran las riquezas dentro de la mina de la Cueva del Oleaje. Muchos se beneficiaron de este acuerdo, incluido el asentamiento humano cercano de Phandalin. La ubicación de la cueva se perdió en el tiempo después de que fue invadida por orcos en 951 DR, y desde entonces ha sido una atracción regional para arqueólogos potenciales."
         }
       ],
       "relatedArticles": [
         {
-          "title": "Phandelver Pact",
+          "title": "Pacto de Phandelver",
           "slug": "phandelver-pact"
         },
         {
@@ -267,29 +269,28 @@
         }
       ]
     },
-    "category": "locations"
+    "category": "ubicaciones"
   },
   {
     "slug": "iarno-albrek",
     "title": "Iarno Albrek",
     "content": {
       "sidebar": {
-        "imageUrl": "/iarno-albrek.webp",
         "characterDetails": {
-          "status": "Alive",
+          "status": "Vivo",
           "alignment": "Neutral",
-          "race": "Human",
+          "race": "Humano",
           "relationships": [
             {
               "with": "Sildar Hallwinter",
-              "type": "Guildmate"
+              "type": "Compañero de Gremio"
             }
           ]
         }
       },
       "mainContentArray": [
         {
-          "text": "Iarno Albrek is a human wizard and a member of the Lords' Alliance. He was sent to Phandalin to establish order in the region. He was also tasked with finding out what happened to the Forge of Spells, and to make sure that the mine was reopened."
+          "text": "Iarno Albrek es un mago humano y miembro de la Alianza de los Lords. Fue enviado a Phandalin para establecer orden en la región. También tenía la tarea de averiguar qué había sucedido con la Forja de los Hechizos, y asegurarse de que la mina fuera reabierta."
         }
       ],
       "relatedArticles": [
@@ -298,32 +299,32 @@
           "slug": "sildar-hallwinter"
         },
         {
-          "title": "Lords' Alliance",
+          "title": "Alianza de los Lords",
           "slug": "lords-alliance"
         }
       ]
     },
-    "category": "characters"
+    "category": "personajes"
   },
   {
     "slug": "lords-alliance",
-    "title": "Lords' Alliance",
+    "title": "Alianza de los Lords",
     "content": {
       "sidebar": {
         "imageUrl": "/lords-alliance.webp",
         "organizationDetails": {
-          "type": "Political Alliance",
-          "location": "Sword Coast",
+          "type": "Alianza Política",
+          "location": "Costa de la Espada",
           "reach": "Regional",
-          "status": "Active"
+          "status": "Activa"
         }
       },
       "mainContentArray": [
         {
-          "text": "The Lords' Alliance is a coalition of rulers from cities and towns across Faerûn (primarily in the North), who collectively agree that some solidarity is needed to keep evil at bay."
+          "text": "La Alianza de los Lords es una coalición de gobernantes de ciudades y pueblos a lo largo de Faerûn (principalmente en el Norte), que colectivamente acuerdan que se necesita algo de solidaridad para mantener a raya el mal."
         },
         {
-          "text": "The rulers of Waterdeep, Silverymoon, Neverwinter, and other free cities in the region dominate the Alliance, and every lord in the Alliance works for the fate and fortune of his or her own settlement above all others. The agents of the Alliance include sophisticated bards, zealous paladins, talented mages, and grizzled warriors. They are chosen primarily for their loyalty, and are trained to work as spies, diplomats, and warriors."
+          "text": "Los gobernantes de Waterdeep, Silverymoon, Neverwinter y otras ciudades libres de la región dominan la Alianza, y cada señor en la Alianza trabaja por el destino y la fortuna de su propio asentamiento por encima de todo lo demás. Los agentes de la Alianza incluyen bardos sofisticados, paladines celosos, magos talentosos y guerreros curtidos. Son elegidos principalmente por su lealtad, y están entrenados para trabajar como espías, diplomáticos y guerreros."
         }
       ],
       "relatedArticles": [
@@ -337,29 +338,29 @@
         }
       ]
     },
-    "category": "organizations"
+    "category": "organizaciones"
   },
   {
     "slug": "mount-hotenow",
-    "title": "Mount Hotenow",
+    "title": "Monte Hotenow",
     "content": {
       "sidebar": {
         "imageUrl": "/mount-hotenow.webp",
         "geographyDetails": {
-          "type": "Volcano",
-          "location": "Sword Coast, near Neverwinter"
+          "type": "Volcán",
+          "location": "Costa de la Espada, cerca de Neverwinter"
         }
       },
       "mainContentArray": [
         {
-          "text": "Known to the ancient dwarves as Glaurimm, was a volcano amid the Crags mountain range, situated to the northeast of the city of Neverwinter on the Sword Coast North, deep in Neverwinter Wood."
+          "text": "Conocido por los enanos antiguos como Glaurimm, era un volcán en medio de la cordillera de las Grúas, situado al noreste de la ciudad de Neverwinter en la Costa de la Espada Norte, en lo profundo del Bosque de Neverwinter."
         },
         {
-          "title": "Description:",
-          "text": "It was home to a large population of fire elementals, warming the Neverwinter River to the point where it never froze over, even in the heart of winter, giving the city its name. After its eruption (see related article), Mount Hotenow looked like a set of serrated teeth many described as a 'door to the Nine Hells' (or the Elemental Chaos, according to others)."
+          "title": "Descripción:",
+          "text": "Fue hogar de una gran población de elementales de fuego, calentando el río Neverwinter hasta el punto de que nunca se congelaba, incluso en el corazón del invierno, dando a la ciudad su nombre. Tras su erupción (ver artículo relacionado), el Monte Hotenow parecía un conjunto de dientes serrados que muchos describían como 'una puerta a los Nueve Infiernos' (o el Caos Elemental, según otros)."
         },
         {
-          "text": "Within Mount Hotenow were largely untapped deposits of alum, nitre, and sal ammoniac. Following the eruption, deposits of rare black diamonds were found in the crater's rim. The volcano also had a tendency to attract creatures like fire giants and red dragons to make their homes near it."
+          "text": "Dentro del Monte Hotenow había depósitos en gran parte sin explotar de alumbre, nitrato y sal amoniacal. Tras la erupción, se encontraron depósitos de raros diamantes negros en el borde del cráter. El volcán también tenía la tendencia de atraer a criaturas como gigantes de fuego y dragones rojos para hacer sus hogares cerca de él."
         }
       ],
       "relatedArticles": [
@@ -372,12 +373,12 @@
           "slug": "thundertree"
         },
         {
-          "title": "Mount Hotenow Eruption",
+          "title": "Erupción del Monte Hotenow",
           "slug": "mount-hotenow-eruption"
         }
       ]
     },
-    "category": "locations"
+    "category": "ubicaciones"
   },
   {
     "slug": "neverwinter",
@@ -386,41 +387,41 @@
       "sidebar": {
         "imageUrl": "/neverwinter.webp",
         "geographyDetails": {
-          "type": "City",
-          "location": "Sword Coast"
+          "type": "Ciudad",
+          "location": "Costa de la Espada"
         }
       },
       "mainContentArray": [
         {
-          "text": "Neverwinter, also known as the City of Skilled Hands and the Jewel of the North, was a multi-racial city-state sitting on the northwestern Sword Coast of Faerûn. The city was a member in good standing of the Lords' Alliance."
+          "text": "Neverwinter, también conocida como la Ciudad de Manos Hábiles y la Joya del Norte, era una ciudad-estado multiétnica situada en la costa noroeste de Faerûn en la Costa de la Espada. La ciudad era un miembro con buenos derechos de la Alianza de los Lords."
         },
         {
-          "title": "Description:",
-          "text": "The city was so named because, even in winter, the Neverwinter River that flows through it never froze. The city proper was built on the right bank of the river, and the city's walls were punctuated by eight gates. The city was divided into several districts, including the Protector's Enclave, the Blacklake District, the River District, and the Tower District."
+          "title": "Descripción:",
+          "text": "La ciudad recibió ese nombre porque, incluso en invierno, el río Neverwinter que fluye a través de ella nunca se congelaba. La ciudad propiamente dicha estaba construida en la orilla derecha del río, y las murallas de la ciudad estaban intercaladas por ocho puertas. La ciudad estaba dividida en varios distritos, incluyendo el Enclave del Protector, el Distrito de Blacklake, el Distrito del Río y el Distrito de la Torre."
         },
         {
-          "text": "The city was known for its many craftsmen, and was considered one of the most cosmopolitan and civilized cities in all of Faerûn. The city was also known for its many festivals, including the annual Wintershield festival."
+          "text": "La ciudad era conocida por sus numerosos artesanos, y se consideraba una de las ciudades más cosmopolitas y civilizadas de todo Faerûn. La ciudad también era conocida por sus numerosos festivales, incluyendo el festival anual de Wintershield."
         },
         {
-          "title": "Geography:",
-          "text": "Neverwinter stood on the northern Sword Coast, on the High Road between Waterdeep and Luskan. To the east lay the Neverwinter Wood and, at its heart, the volcanic Mount Hotenow."
+          "title": "Geografía:",
+          "text": "Neverwinter estaba situada en la Costa de la Espada del norte, en la Carretera Alta entre Waterdeep y Luskan. Al este se encontraba el Bosque de Neverwinter y, en su corazón, el volcán Monte Hotenow."
         },
         {
-          "text": "The Neverwinter River was heated by fire elementals living under the volcano before flowing through the forest and the city. It carried its supernatural warmth with it, keeping the river and harbor from freezing up in winter and the gardens green year-round. The heat given off by the river created a permanent warm climate in the immediate area."
+          "text": "El río Neverwinter era calentado por elementales de fuego que vivían bajo el volcán antes de fluir a través del bosque y la ciudad. Llevaba consigo su calor sobrenatural, manteniendo el río y el puerto sin congelarse en invierno y los jardines verdes durante todo el año. El calor emitido por el río creaba un clima cálido permanente en la zona inmediata."
         }
       ],
       "relatedArticles": [
         {
-          "title": "Mount Hotenow",
+          "title": "Monte Hotenow",
           "slug": "mount-hotenow"
         },
         {
-          "title": "Lords' Alliance",
+          "title": "Alianza de los Lords",
           "slug": "lords-alliance"
         }
       ]
     },
-    "category": "locations"
+    "category": "ubicaciones"
   },
   {
     "slug": "thundertree",
@@ -429,18 +430,18 @@
       "sidebar": {
         "imageUrl": "/thundertree.webp",
         "geographyDetails": {
-          "type": "Settlement",
-          "location": "Sword Coast, near Neverwinter"
+          "type": "Asentamiento",
+          "location": "Costa de la Espada, cerca de Neverwinter"
         }
       },
       "mainContentArray": [
         {
-          "text": "Thundertree was a small village located in the Neverwinter Wood, just north of the city of Neverwinter. The village was abandoned after the eruption of Mount Hotenow, which caused widespread destruction in the area."
+          "text": "Thundertree era un pequeño pueblo situado en el Bosque de Neverwinter, justo al norte de la ciudad de Neverwinter. El pueblo fue abandonado tras la erupción del Monte Hotenow, que causó una destrucción generalizada en la zona."
         }
       ],
       "relatedArticles": [
         {
-          "title": "Mount Hotenow Eruption",
+          "title": "Erupción del Monte Hotenow",
           "slug": "mount-hotenow-eruption"
         },
         {
@@ -449,35 +450,35 @@
         }
       ]
     },
-    "category": "locations"
+    "category": "ubicaciones"
   },
   {
     "slug": "mount-hotenow-eruption",
-    "title": "Mount Hotenow Eruption",
+    "title": "Erupción del Monte Hotenow",
     "content": {
       "sidebar": {
         "eventDetails": {
-          "type": "Natural Disaster",
-          "location": "Sword Coast, near Neverwinter",
+          "type": "Desastre Natural",
+          "location": "Costa de la Espada, cerca de Neverwinter",
           "date": "1451 DR",
-          "impact": "Regional, destruction of Thundertree, heavy damage on Neverwinter"
+          "impact": "Regional, destrucción de Thundertree, graves daños en Neverwinter"
         }
       },
       "mainContentArray": [
         {
-          "text": "The eruption of Mount Hotenow was a catastrophic event that occurred in 1451 DR. The eruption caused widespread destruction in the area, including the destruction of the village of Thundertree and heavy damage to the city of Neverwinter."
+          "text": "La erupción del Monte Hotenow fue un evento catastrófico que ocurrió en 1451 DR. La erupción causó una destrucción generalizada en la zona, incluyendo la destrucción del pueblo de Thundertree y daños graves en la ciudad de Neverwinter."
         },
         {
-          "title": "Description:",
-          "text": "In 1451 DR, a small adventuring party rediscovered the ancient dwarven city of Gauntlgrym beneath the volcano. The party, consisting of Dahlia Sin'felle, Korvin Dor'crae, Valindra Shadowmantle, Athrogate, and Jarlaxle Baenre, made it all the way to the legendary forges. There, the latter two were betrayed by their Thayan allies, with Athrogate hypnotically forced to activate the forge."
+          "title": "Descripción:",
+          "text": "En 1451 DR, un pequeño grupo de aventureros redescubrió la antigua ciudad enana de Gauntlgrym bajo el volcán. El grupo, compuesto por Dahlia Sin'felle, Korvin Dor'crae, Valindra Shadowmantle, Athrogate y Jarlaxle Baenre, llegó hasta las legendarias forjas. Allí, los dos últimos fueron traicionados por sus aliados thayanos, con Athrogate forzado hipnóticamente a activar la forja."
         },
         {
-          "text": "This briefly awoke the primordial Maegera, who, in a fit of rage, released a burst of energy so powerful that it forced the eruption of the volcano. The resulting earthquake and combination of smoke and lava destroyed much of Neverwinter, killing thousands. The eruption entirely destroyed the settlement of Thundertree."
+          "text": "Esto despertó brevemente al primordial Maegera, quien, en un arranque de ira, liberó una ráfaga de energía tan poderosa que provocó la erupción del volcán. El terremoto resultante y la combinación de humo y lava destruyeron gran parte de Neverwinter, matando a miles. La erupción destruyó completamente el asentamiento de Thundertree."
         }
       ],
       "relatedArticles": [
         {
-          "title": "Mount Hotenow",
+          "title": "Monte Hotenow",
           "slug": "mount-hotenow"
         },
         {
@@ -486,7 +487,7 @@
         }
       ]
     },
-    "category": "history"
+    "category": "historia"
   },
   {
     "slug": "leilon",
@@ -495,22 +496,22 @@
       "sidebar": {
         "imageUrl": "/leilon.webp",
         "geographyDetails": {
-          "type": "Settlement",
-          "location": "Sword Coast, between Neverwinter and Waterdeep"
+          "type": "Asentamiento",
+          "location": "Costa de la Espada, entre Neverwinter y Waterdeep"
         }
       },
       "mainContentArray": [
         {
-          "text": "A small town that was once a prosperous port on the Sword Coast. It was abandoned after the Spellplague, and it's currently being rebuilt."
+          "text": "Un pequeño pueblo que alguna vez fue un próspero puerto en la Costa de la Espada. Fue abandonado después de la Spellplague, y actualmente está siendo reconstruido."
         },
         {
-          "text": "A mining town that sold copper, nickel, and silver to Waterdeep. It was also a port where merchants sometimes offloaded goods on barges (since most ships cannot pass the town's shallow mud flats) to be transferred to cities along the Sword Coast."
+          "text": "Un pueblo minero que vendía cobre, níquel y plata a Waterdeep. También era un puerto donde los comerciantes a veces descargaban mercancías en barcazas (ya que la mayoría de los barcos no pueden pasar por los bajos fangosos del pueblo) para ser trasladadas a ciudades a lo largo de la Costa de la Espada."
         },
         {
-          "text": "Two hundred years ago, the wizard Thalivar made his home here and raised a tower at the town center to conduct his mystical studies. The House of Thalivar was topped with a planar beacon that lured creatures from other planes into the structure, trapping them there. After Thalivar mysteriously disappeared, the people of Leilon were content to leave his tower and the monsters within alone. The Spellplague, a divine phenomenon that twisted Faerûn's magic, corrupted the tower's defenses. The creatures sealed within were freed to attack Leilon, and the magic of the planar beacon was redirected back into the Material Plane, causing humanoids who looked upon it to become paralyzed. Leilon was quickly overrun and subsequently abandoned and has remained that way for more than a century."
+          "text": "Hace doscientos años, el mago Thalivar hizo su hogar aquí y levantó una torre en el centro del pueblo para llevar a cabo sus estudios místicos. La Casa de Thalivar estaba coronada con un faro planar que atraía a criaturas de otros planos hacia la estructura, atrapándolas allí. Después de que Thalivar desapareciera misteriosamente, la gente de Leilon se contentó con dejar su torre y los monstruos dentro solos. La Spellplague, un fenómeno divino que torció la magia de Faerûn, corrompió las defensas de la torre. Las criaturas selladas fueron liberadas para atacar a Leilon, y la magia del faro planar fue redirigida de nuevo al Plano Material, causando que los humanoides que lo miraban quedaran paralizados. Leilon fue rápidamente invadido y posteriormente abandonado y ha permanecido así por más de un siglo."
         },
         {
-          "text": "The first action the soldiery of Neverwinter took in Leilon was to destroy the planar beacon inside the House of Thalivar. A talented mage, has rebuilt it to perform his own studies into the Ethereal Plane. Before its fall, Leilon was defended by a loosely organized group of adventurers called the Swords of Leilon. When the House of Thalivar released its monsters, the Swords fought to cover the escape of the townsfolk. They died, becoming ghosts bound to Leilon's ruins. They now watch the rebuilding of the town with caution, hoping that the reconstructed tower does not bring similar disaster."
+          "text": "La primera acción de la soldadesca de Neverwinter en Leilon fue destruir el faro planar dentro de la Casa de Thalivar. Un mago talentoso lo ha reconstruido para realizar sus propios estudios sobre el Plano Etéreo. Antes de su caída, Leilon estaba defendido por un grupo de aventureros poco organizado llamado los Espadas de Leilon. Cuando la Casa de Thalivar liberó a sus monstruos, los Espadas lucharon para cubrir la escapada de los lugareños. Murieron, convirtiéndose en fantasmas atados a las ruinas de Leilon. Ahora observan con cautela la reconstrucción del pueblo, esperando que la torre reconstruida no traiga un desastre similar."
         }
       ],
       "relatedArticles": [
@@ -520,7 +521,7 @@
         }
       ]
     },
-    "category": "locations"
+    "category": "ubicaciones"
   },
   {
     "slug": "spellplague",
@@ -528,29 +529,29 @@
     "content": {
       "sidebar": {
         "eventDetails": {
-          "type": "Divine Catastrophe",
-          "location": "Everywhere",
+          "type": "Catástrofe Divina",
+          "location": "En todas partes",
           "date": "1385 DR",
-          "impact": "Universal, temporal destruction of the Weave"
+          "impact": "Universal, destrucción temporal del Weave"
         }
       },
       "mainContentArray": [
         {
-          "text": "The Spellplague was a magical catastrophe that struck all the planes of existance. The most widely accepted theory proposes the event was a direct result of the death of the goddess Mystra, the goddess of magic, which caused the Weave, the source of all magic, to unravel."
+          "text": "La Spellplague fue una catástrofe mágica que afectó a todos los planos de existencia. La teoría más aceptada propone que el evento fue el resultado directo de la muerte de la diosa Mystra, la diosa de la magia, lo que causó que el Weave, la fuente de toda magia, se desmoronara."
         },
         {
-          "title": "Cause:",
-          "text": "The most popular and widely accepted theory about the origins of the Spellplague was that this calamity was caused by the death of Mystra, the goddess of Magic. For eons, magic had been bound within Mystra's Weave, the universal structure of arcane forces, and her death tore the Weave apart and unleashed the raw magic contained within it, creating the cataclysm that was later known as the Spellplague."
+          "title": "Causa:",
+          "text": "La teoría más popular y ampliamente aceptada sobre los orígenes de la Spellplague fue que esta calamidad fue causada por la muerte de Mystra, la diosa de la Magia. Durante eones, la magia había estado ligada dentro del Weave de Mystra, la estructura universal de fuerzas arcanas, y su muerte desgarró el Weave y liberó la magia cruda contenida en ella, creando el cataclismo que más tarde se conocería como la Spellplague."
         },
         {
-          "text": "Other scholars, however, didn't consider this to be a logical explanation. Historically, two earlier incarnations of Mystra had died before only to be reborn, and the Weave maintained its hold over the power of magic for the duration of her deaths. In these scholars' views, the truth would never be fully known to mortals, and perhaps not even to the gods."
+          "text": "Otros eruditos, sin embargo, no consideraban esto como una explicación lógica. Históricamente, dos encarnaciones anteriores de Mystra habían muerto antes solo para renacer, y el Weave mantuvo su control sobre el poder de la magia durante la duración de sus muertes. En la opinión de estos eruditos, la verdad nunca sería completamente conocida por los mortales, y quizás ni siquiera por los dioses."
         },
         {
-          "title": "Effects:",
-          "text": "Whatever its cause, the Weave collapsed and, without the Weave, the Shadow Weave was unable to be maintained and collapsed as well. The breakdown of the Weave was felt by all wizards across Faerûn. The corrupted madness of Cyric defiled what arcane forces remained from the dissolution of the Weave, resulting in a new magical source of defiling arcane energy in the form of blue flames that destroyed Dweomerheart and continued to spread across the multiverse."
+          "title": "Efectos:",
+          "text": "Sea cual sea su causa, el Weave colapsó y, sin el Weave, la Sombra del Weave también fue incapaz de mantenerse y colapsó. La desintegración del Weave se sintió por todos los magos a través de Faerûn. La locura corrompida de Cyric profanó lo que quedaba de las fuerzas arcanas de la disolución del Weave, resultando en una nueva fuente mágica de energía arcana profanadora en forma de llamas azules que destruyeron Dweomerheart y continuaron expandiéndose a través del multiverso."
         },
         {
-          "text": "Anything that came into contact with the Spellplague risked being destroyed or warped by its energies. Creatures and individuals risked becoming 'plaguechanged', which entailed massive physical mutations and often a complete loss of sanity, and sometimes bestowed the creature or individual with terrible powers. Those who came into contact with weaker versions of the Spellplague were sometimes lucky enough to escape with only a spellscar, which could also bestow potent magical abilities. Physical places could also be horribly warped by the Spellplague, becoming a changeland."
+          "text": "Cualquier cosa que entrara en contacto con la Spellplague corría el riesgo de ser destruida o deformada por sus energías. Criaturas e individuos corrían el riesgo de convertirse en 'plagados', lo que implicaba mutaciones físicas masivas y a menudo una pérdida completa de la cordura, y a veces otorgaba al individuo o criatura poderes terribles. Aquellos que entraban en contacto con versiones más débiles de la Spellplague a veces tenían la suerte de escapar solo con una cicatriz de conjuro, que también podía otorgar habilidades mágicas potentes. Los lugares físicos también podían ser horriblemente deformados por la Spellplague, convirtiéndose en tierras de cambio."
         }
       ],
       "relatedArticles": [
@@ -560,6 +561,6 @@
         }
       ]
     },
-    "category": "history"
+    "category": "historia"
   }
 ]

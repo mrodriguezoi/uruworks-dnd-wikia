@@ -16,26 +16,26 @@ import SearchResultItem from "../components/SearchResultItem.astro";
 
 <WikiHomepage title="Phandelver and Below">
     <div class="mb-6">
-        <h1 class="h1"> Welcome</h1>
+        <h1 class="h1"> Bienvenidos!</h1>
         <p class="p-4">
-            Welcome to Phandalin! This is the ultimate resource for our Dungeons & Dragons adventures in the quiet little town of Phandalin. Here, you'll find everything from character bios and session recaps to detailed lore and maps of the region. Whether you're a player looking to keep up with the story or a fan of our quests, you'll discover all the secrets and stories that make our campaign unique. Dive into the history, explore side quests, and collaborate with your fellow adventurers as we build our own legendary tale. Happy adventuring!
+            ¡Bienvenidos a Phandalin! Esta es la fuente definitiva para nuestras aventuras de Dungeons & Dragons en el tranquilo pueblito de Phandalin. Aquí encontrarás todo, desde biografías de personajes y resúmenes de sesiones hasta lore detallado y mapas de la región. Ya seas un jugador que busca mantenerse al día con la historia o un fanático de nuestras misiones, descubrirás todos los secretos e historias que hacen única nuestra campaña. Sumérgete en la historia, explora misiones secundarias y colabora con tus compañeros aventureros mientras construimos nuestra propia leyenda épica. ¡Feliz aventura!
         </p>
     </div>
     <div class="article-container flex gap-8 mb-6">
         <div class="w-[66%] flex flex-col justify-between">
             <div >
-                <h1 class="h1"> The Region:</h1>
+                <h1 class="h1"> La Región:</h1>
                 <p class="p-4">
-                    The Sword Coast is an expansive tract of wilderness, dotted with independent cities and overrun by bands of monstrous creatures, that some saw as merely a place through which you had to travel in order to reach an actual meaningful destination. It was much more than that of course, a rich and vibrant land with a long and storied history that encompassed some of the most important cities in all the Realms.It was considered one of the rougher locales of Faerûn, both geographically and by virtue of its people.
+                    La Costa de la Espada es un extenso territorio salvaje, salpicado de ciudades independientes y plagado de bandas de criaturas monstruosas, que algunos veían simplemente como un lugar por el que tenían que viajar para llegar a un destino realmente significativo. Por supuesto, era mucho más que eso, una tierra rica y vibrante con una larga e ilustre historia que abarcaba algunas de las ciudades más importantes de todos los Reinos. Se consideraba uno de los lugares más ásperos de Faerûn, tanto geográficamente como por la índole de su gente.
                 </p>
                 <p class="p-4">
-                    While there was no central government of the Sword Coast, both Daggerford and Baldur's Gate were member-states of the Lords' Alliance. Each of these cities enjoyed a degree of increased security and lawfulness, benefits that accompanied membership in the coalition of the West.
+                    Aunque no había un gobierno central en la Costa de la Espada, tanto Daggerford como Baldur's Gate eran estados miembros de la Alianza de los Señores. Cada una de estas ciudades disfrutaba de un grado de seguridad y legalidad aumentados, beneficios que acompañaban la membresía en la coalición del Oeste.
                 </p>
                 <p class="p-4">
-                    An agreement known as "the Pact" offered protection for those traveling across the Coast Way, a responsibility shared among the settlements from Baldur's Gate all the way south to Amn. Much of the lands beyond the trade roads and away from the influence of the coast's cities were considered mostly lawless. Like many similar places in the realms, bandits, monstrous creatures, and raiders were considered to be regular threats.
+                    Un acuerdo conocido como "el Pacto" ofrecía protección para aquellos que viajaban a través del Camino Costero, una responsabilidad compartida entre los asentamientos desde Baldur's Gate hasta el sur de Amn. Gran parte de las tierras más allá de las rutas comerciales y lejos de la influencia de las ciudades costeras se consideraban mayormente sin ley. Como muchos lugares similares en los reinos, se consideraba que los bandidos, criaturas monstruosas y asaltantes eran amenazas regulares.
                 </p>
                 <p class="p-4">
-                    Beyond the shared protection offered by various alliances and nations, the cities of the Sword Coast were bound together by their shared common interest in successful commerce.
+                    Más allá de la protección compartida ofrecida por diversas alianzas y naciones, las ciudades de la Costa de la Espada estaban unidas por su interés común en el comercio exitoso.
                 </p>
             </div>
         </div>
@@ -44,7 +44,7 @@ import SearchResultItem from "../components/SearchResultItem.astro";
         </div>
     </div>
     <div>
-        <h1 class="h1"> Categories</h1>
+        <h1 class="h1"> Categorías</h1>
         <ul id="query-results">
             {Object.entries(articlesByCategory).map(([category, articles]) => (
                 <li class="break-inside-avoid p-4 category-container rounded mb-4">
