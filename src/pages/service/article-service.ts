@@ -35,8 +35,9 @@ class ArticleService {
     return filteredArticles;
   }
 
-  getArticlesOfCategory(category: string, limit: number) {
+  getArticlesOfCategory(category: string, limit: number, random?: boolean) {
     let filteredArticles = articles.filter((article: Article) => article.category === category).slice(0, limit);
+    if (random) filteredArticles.sort(() => Math.random() - 0.5);
     return filteredArticles;
   }
 

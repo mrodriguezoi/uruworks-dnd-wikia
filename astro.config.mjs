@@ -7,5 +7,5 @@ import vercelServerless from "@astrojs/vercel/serverless";
 export default defineConfig({
   integrations: [tailwind()],
   output: "server",
-  adapter: vercelServerless({ maxDuration: 8 }),
+  adapter: vercelServerless({ maxDuration: 8, imageService: true }),
 });

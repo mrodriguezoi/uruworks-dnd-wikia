@@ -7,7 +7,7 @@ const categories = articleService.getCategories();
 let articlesByCategory: Record<string,Array<Article>> = {};
 
 for (const category of categories) {
-    articlesByCategory[category] = articleService.getArticlesOfCategory(category , 4);
+    articlesByCategory[category] = articleService.getArticlesOfCategory(category , 4 , true);
 }
 
 import WikiHomepage from "../layouts/WikiHomepage.astro";
@@ -15,10 +15,33 @@ import SearchResultItem from "../components/SearchResultItem.astro";
 ---
 
 <WikiHomepage title="Phandelver and Below">
-    <div class="mb-4">
+    <div class="mb-6">
         <h1 class="h1"> Welcome</h1>
-        <p class="p-4">Welcome to Phandalin! This is the ultimate resource for our Dungeons & Dragons adventures in the quiet little town of Phandalin. Here, you'll find everything from character bios and session recaps to detailed lore and maps of the region. Whether you're a player looking to keep up with the story or a fan of our quests, you'll discover all the secrets and stories that make our campaign unique. Dive into the history, explore side quests, and collaborate with your fellow adventurers as we build our own legendary tale. Happy adventuring!
-
+        <p class="p-4">
+            Welcome to Phandalin! This is the ultimate resource for our Dungeons & Dragons adventures in the quiet little town of Phandalin. Here, you'll find everything from character bios and session recaps to detailed lore and maps of the region. Whether you're a player looking to keep up with the story or a fan of our quests, you'll discover all the secrets and stories that make our campaign unique. Dive into the history, explore side quests, and collaborate with your fellow adventurers as we build our own legendary tale. Happy adventuring!
+        </p>
+    </div>
+    <div class="article-container flex gap-8 mb-6">
+        <div class="w-[66%] flex flex-col justify-between">
+            <div >
+                <h1 class="h1"> The Region:</h1>
+                <p class="p-4">
+                    The Sword Coast is an expansive tract of wilderness, dotted with independent cities and overrun by bands of monstrous creatures, that some saw as merely a place through which you had to travel in order to reach an actual meaningful destination. It was much more than that of course, a rich and vibrant land with a long and storied history that encompassed some of the most important cities in all the Realms.It was considered one of the rougher locales of Faerûn, both geographically and by virtue of its people.
+                </p>
+                <p class="p-4">
+                    While there was no central government of the Sword Coast, both Daggerford and Baldur's Gate were member-states of the Lords' Alliance. Each of these cities enjoyed a degree of increased security and lawfulness, benefits that accompanied membership in the coalition of the West.
+                </p>
+                <p class="p-4">
+                    An agreement known as "the Pact" offered protection for those traveling across the Coast Way, a responsibility shared among the settlements from Baldur's Gate all the way south to Amn. Much of the lands beyond the trade roads and away from the influence of the coast's cities were considered mostly lawless. Like many similar places in the realms, bandits, monstrous creatures, and raiders were considered to be regular threats.
+                </p>
+                <p class="p-4">
+                    Beyond the shared protection offered by various alliances and nations, the cities of the Sword Coast were bound together by their shared common interest in successful commerce.
+                </p>
+            </div>
+        </div>
+        <div class="w-[33%] p-4 flex flex-col items-center gap-4 sidebar-content">
+            <img class="m-auto" src="/phandalin-region-map.webp" alt="Phandalin Regional Map">
+        </div>
     </div>
     <div>
         <h1 class="h1"> Categories</h1>
