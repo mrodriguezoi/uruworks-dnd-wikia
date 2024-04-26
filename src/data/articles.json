@@ -487,5 +487,79 @@
       ]
     },
     "category": "history"
+  },
+  {
+    "slug": "leilon",
+    "title": "Leilon",
+    "content": {
+      "sidebar": {
+        "imageUrl": "/leilon.webp",
+        "geographyDetails": {
+          "type": "Settlement",
+          "location": "Sword Coast, between Neverwinter and Waterdeep"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "A small town that was once a prosperous port on the Sword Coast. It was abandoned after the Spellplague, and it's currently being rebuilt."
+        },
+        {
+          "text": "A mining town that sold copper, nickel, and silver to Waterdeep. It was also a port where merchants sometimes offloaded goods on barges (since most ships cannot pass the town's shallow mud flats) to be transferred to cities along the Sword Coast."
+        },
+        {
+          "text": "Two hundred years ago, the wizard Thalivar made his home here and raised a tower at the town center to conduct his mystical studies. The House of Thalivar was topped with a planar beacon that lured creatures from other planes into the structure, trapping them there. After Thalivar mysteriously disappeared, the people of Leilon were content to leave his tower and the monsters within alone. The Spellplague, a divine phenomenon that twisted Faerûn's magic, corrupted the tower's defenses. The creatures sealed within were freed to attack Leilon, and the magic of the planar beacon was redirected back into the Material Plane, causing humanoids who looked upon it to become paralyzed. Leilon was quickly overrun and subsequently abandoned and has remained that way for more than a century."
+        },
+        {
+          "text": "The first action the soldiery of Neverwinter took in Leilon was to destroy the planar beacon inside the House of Thalivar. A talented mage, has rebuilt it to perform his own studies into the Ethereal Plane. Before its fall, Leilon was defended by a loosely organized group of adventurers called the Swords of Leilon. When the House of Thalivar released its monsters, the Swords fought to cover the escape of the townsfolk. They died, becoming ghosts bound to Leilon's ruins. They now watch the rebuilding of the town with caution, hoping that the reconstructed tower does not bring similar disaster."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Neverwinter",
+          "slug": "neverwinter"
+        }
+      ]
+    },
+    "category": "locations"
+  },
+  {
+    "slug": "spellplague",
+    "title": "Spellplague",
+    "content": {
+      "sidebar": {
+        "eventDetails": {
+          "type": "Divine Catastrophe",
+          "location": "Everywhere",
+          "date": "1385 DR",
+          "impact": "Universal, temporal destruction of the Weave"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "The Spellplague was a magical catastrophe that struck all the planes of existance. The most widely accepted theory proposes the event was a direct result of the death of the goddess Mystra, the goddess of magic, which caused the Weave, the source of all magic, to unravel."
+        },
+        {
+          "title": "Cause:",
+          "text": "The most popular and widely accepted theory about the origins of the Spellplague was that this calamity was caused by the death of Mystra, the goddess of Magic. For eons, magic had been bound within Mystra's Weave, the universal structure of arcane forces, and her death tore the Weave apart and unleashed the raw magic contained within it, creating the cataclysm that was later known as the Spellplague."
+        },
+        {
+          "text": "Other scholars, however, didn't consider this to be a logical explanation. Historically, two earlier incarnations of Mystra had died before only to be reborn, and the Weave maintained its hold over the power of magic for the duration of her deaths. In these scholars' views, the truth would never be fully known to mortals, and perhaps not even to the gods."
+        },
+        {
+          "title": "Effects:",
+          "text": "Whatever its cause, the Weave collapsed and, without the Weave, the Shadow Weave was unable to be maintained and collapsed as well. The breakdown of the Weave was felt by all wizards across Faerûn. The corrupted madness of Cyric defiled what arcane forces remained from the dissolution of the Weave, resulting in a new magical source of defiling arcane energy in the form of blue flames that destroyed Dweomerheart and continued to spread across the multiverse."
+        },
+        {
+          "text": "Anything that came into contact with the Spellplague risked being destroyed or warped by its energies. Creatures and individuals risked becoming 'plaguechanged', which entailed massive physical mutations and often a complete loss of sanity, and sometimes bestowed the creature or individual with terrible powers. Those who came into contact with weaker versions of the Spellplague were sometimes lucky enough to escape with only a spellscar, which could also bestow potent magical abilities. Physical places could also be horribly warped by the Spellplague, becoming a changeland."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Leilon",
+          "slug": "leilon"
+        }
+      ]
+    },
+    "category": "history"
   }
 ]
