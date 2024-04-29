@@ -1,10 +1,10 @@
 :root {
-  /* --main-background: #c09061; */
   --sidebar-background: #e9dbc6;
 }
 
 body {
   background-color: black;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* Background Styles */
@@ -43,10 +43,6 @@ body {
 }
 
 /* Text Styles */
-
-body {
-  font-family: "DM Sans", sans-serif;
-}
 
 .h1 {
   font-size: 2.5rem;
