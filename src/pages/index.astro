@@ -40,7 +40,7 @@ import SearchResultItem from "../components/SearchResultItem.astro";
             </div>
         </div>
         <div class="w-[33%] p-4 flex flex-col items-center gap-4 sidebar-content">
-            <img class="m-auto" src="/phandalin-region-map.webp" alt="Phandalin Regional Map">
+            <img class="m-auto" src="https://i.ibb.co/10YBxnq/phandalin-region-map.webp" alt="Phandalin Regional Map">
         </div>
     </div>
     <div>
@@ -48,7 +48,7 @@ import SearchResultItem from "../components/SearchResultItem.astro";
         <ul id="query-results">
             {Object.entries(articlesByCategory).map(([category, articles]) => (
                 <li class="break-inside-avoid p-4 category-container rounded mb-4">
-                    <a href={`/categories/${category}`} class="h2 border-b border-black mb-4 block">{`${category[0].toUpperCase()}${category.substring(1)}`}</a>
+                    <span onclick=`window.transitionToPage(/categories/${category})` class="h2 border-b border-black mb-4 block">{`${category[0].toUpperCase()}${category.substring(1)}`}</span>
                     <ul class="lg:columns-2">
                         {articles.map((article) => (
                             <SearchResultItem classes="break-inside-avoid" href={`/articles/${article.slug}`} title={article.title} description={article.content.mainContentArray[0].text} />

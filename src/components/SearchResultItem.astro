@@ -10,4 +10,4 @@ interface Props{
 
 const{href , title , description , characterLimit , classes , titleClasses} = Astro.props;
 ---
-<li class=`list-none min-w-[30%] gap-4 ${classes}`><a class=`h2 ${titleClasses}` href={href}>{title}</a><p>{description.substring(0,(characterLimit ? characterLimit : 150))}...</p></li>
+<li class=`list-none min-w-[30%] gap-4 ${classes}`><span onclick=`window.transitionToPage("${href}")` class=`h2 ${titleClasses}`>{title}</span><p>{description.substring(0,(characterLimit ? characterLimit : 150))}...</p></li>
