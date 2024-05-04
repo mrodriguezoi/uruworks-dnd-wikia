@@ -23,8 +23,8 @@ import SearchResultItem from '../../components/SearchResultItem.astro';
 ---
 
 <WikiHomepage title=`${(slug as string)[0].toUpperCase()}${(slug as string).substring(1)}`>
-    <div class="p-4">
-        <ul class="columns-2" id="query-results">
+    <div class="pr-4 lg:p-4">
+        <ul class="lg:columns-2" id="query-results">
             {articles.map((article: Article) => (
                 <SearchResultItem classes="break-inside-avoid  mb-4" href={`/articles/${article.slug}`} title={article.title} description={article.content.mainContentArray[0].text}></SearchResultItem>
             ))}

@@ -17,30 +17,30 @@ import SearchResultItem from "../components/SearchResultItem.astro";
 <WikiHomepage title="Phandelver and Below">
     <div class="mb-6">
         <h1 class="h1"> Bienvenidos!</h1>
-        <p class="p-4">
+        <p class="pl-0 lg:pl-0 p-4">
             ¡Bienvenidos a Phandalin! Esta es la fuente definitiva para nuestras aventuras de Dungeons & Dragons en el tranquilo pueblito de Phandalin. Aquí encontrarás todo, desde biografías de personajes y resúmenes de sesiones hasta lore detallado y mapas de la región. Ya seas un jugador que busca mantenerse al día con la historia o un fanático de nuestras misiones, descubrirás todos los secretos e historias que hacen única nuestra campaña. Sumérgete en la historia, explora misiones secundarias y colabora con tus compañeros aventureros mientras construimos nuestra propia leyenda épica. ¡Feliz aventura!
         </p>
     </div>
-    <div class="article-container flex gap-8 mb-6">
-        <div class="w-[66%] flex flex-col justify-between">
+    <div class="article-container block lg:flex gap-8 mb-6">
+        <div class="lg:w-[33%] p-4 flex order-2 flex-col items-center gap-4 sidebar-content self-center">
+            <img class="m-auto" src="https://i.ibb.co/10YBxnq/phandalin-region-map.webp" alt="Phandalin Regional Map">
+        </div>
+        <div class="lg:w-[66%] flex flex-col justify-between">
             <div >
                 <h1 class="h1"> La Región:</h1>
-                <p class="p-4">
+                <p class="pl-0 lg:pl-0 p-4">
                     La Costa de la Espada es un extenso territorio salvaje, salpicado de ciudades independientes y plagado de bandas de criaturas monstruosas, que algunos veían simplemente como un lugar por el que tenían que viajar para llegar a un destino realmente significativo. Por supuesto, era mucho más que eso, una tierra rica y vibrante con una larga e ilustre historia que abarcaba algunas de las ciudades más importantes de todos los Reinos. Se consideraba uno de los lugares más ásperos de Faerûn, tanto geográficamente como por la índole de su gente.
                 </p>
-                <p class="p-4">
+                <p class="pl-0 lg:pl-0 p-4">
                     Aunque no había un gobierno central en la Costa de la Espada, tanto Daggerford como Baldur's Gate eran estados miembros de la Alianza de los Señores. Cada una de estas ciudades disfrutaba de un grado de seguridad y legalidad aumentados, beneficios que acompañaban la membresía en la coalición del Oeste.
                 </p>
-                <p class="p-4">
+                <p class="pl-0 lg:pl-0 p-4">
                     Un acuerdo conocido como "el Pacto" ofrecía protección para aquellos que viajaban a través del Camino Costero, una responsabilidad compartida entre los asentamientos desde Baldur's Gate hasta el sur de Amn. Gran parte de las tierras más allá de las rutas comerciales y lejos de la influencia de las ciudades costeras se consideraban mayormente sin ley. Como muchos lugares similares en los reinos, se consideraba que los bandidos, criaturas monstruosas y asaltantes eran amenazas regulares.
                 </p>
-                <p class="p-4">
+                <p class="pl-0 lg:pl-0 p-4">
                     Más allá de la protección compartida ofrecida por diversas alianzas y naciones, las ciudades de la Costa de la Espada estaban unidas por su interés común en el comercio exitoso.
                 </p>
             </div>
-        </div>
-        <div class="w-[33%] p-4 flex flex-col items-center gap-4 sidebar-content">
-            <img class="m-auto" src="https://i.ibb.co/10YBxnq/phandalin-region-map.webp" alt="Phandalin Regional Map">
         </div>
     </div>
     <div>
@@ -48,7 +48,7 @@ import SearchResultItem from "../components/SearchResultItem.astro";
         <ul id="query-results">
             {Object.entries(articlesByCategory).map(([category, articles]) => (
                 <li class="break-inside-avoid p-4 category-container rounded mb-4">
-                    <span onclick=`window.transitionToPage(/categories/${category})` class="h2 border-b border-black mb-4 block">{`${category[0].toUpperCase()}${category.substring(1)}`}</span>
+                    <span onclick=`window.transitionToPage('/categories/${category}')` class="h2 border-b border-black mb-4 block">{`${category[0].toUpperCase()}${category.substring(1)}`}</span>
                     <ul class="lg:columns-2">
                         {articles.map((article) => (
                             <SearchResultItem classes="break-inside-avoid" href={`/articles/${article.slug}`} title={article.title} description={article.content.mainContentArray[0].text} />

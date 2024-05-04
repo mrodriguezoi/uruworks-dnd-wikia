@@ -5,11 +5,11 @@ interface Props {
 }
 const { title } = Astro.props;
 ---
-<div class="flex justify-between items-center mb-4 border-b border-grey">
-    <header class="p-4 pl-0">
+<div class="flex justify-around lg:justify-between items-center mb-4 border-b border-grey">
+    <header class="hidden lg:block p-4 pl-0">
         <h1 class="h1">{title}</h1>
     </header>
-    <SearchBar> </SearchBar>
+    <SearchBar classes="mb-4 lg:mb-0"> </SearchBar>
 </div>
 </div>
 
