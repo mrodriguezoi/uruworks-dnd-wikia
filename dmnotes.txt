@@ -1,0 +1,45 @@
+--- Cragmaw Hideout ---
+1,6gp
+chain shirt (50gp) / shield (10gp) / scimitar (25gp) || Goblin Boss (x3)
+Leather armor (10gp) / scimitar (25gp) || Golbin (x15)
+Hide armor (10gp) / Shield (10gp) / Morningstar (15gp) || Hobgoblin (x1)
+Yeemik : 21cp / 3 agates (30gp) / potion of healing
+Klarg: 32gp / 2 potion of healing / Jade statuette (40gp)
+
+--Total--
+Gold: 33gp 8sp 
+Consumibles: 3 Potion of Healing
+Stones: 3 agates (30gp) / Jade Statuette (40gp)
+Equipment: 
+chain shirt (50gp) / shield (10gp) / scimitar (25gp) || Goblin Boss (x3)
+Leather armor (10gp) / scimitar (25gp) || Golbin (x15)
+Hide armor (10gp) / Shield (10gp) / Morningstar (15gp) || Hobgoblin (x1)
+
+--- Redbrand Hideout ---
+Hide armor (10gp) / Shield (10gp) / Morningstar (15gp) || Hobgoblin (x5)
+Leather Armor (10gp) / Scimitar (25gp) || Redbrand Ruffian (x3)
+1gp 3sp / Semiprecious Stones (50gp)
+32gp 2sp 5cp / Gold Earring Ruby (30gp)
+Rare Alchemical Reagents (75gp to alchemist or apothecary)
+148gp // 5 Carmelians (10gp)
+Spell Scroll of Hold Person / Spell Scroll of Fireball
+
+-- Total --
+Gold: 181gp 5sp 5cp
+Consumibles: Spell Scroll of Hold Person / Spell Scroll of Fireball
+Stones: Semiprecious Stones (50gp) / Gold Earring Ruby (30gp) / 5 Carmelians (10gp)
+Misc: Rare Alchemical Reagents (75gp to alchemist or apothecary)
+Equipment:
+Hide armor (10gp) / Shield (10gp) / Morningstar (15gp) || Hobgoblin (x5)
+Leather Armor (10gp) / Scimitar (25gp) || Redbrand Ruffian (x3)
+
+---- Overall ----
+Gold: 215gp 3sp 5cp
+Consumibles: 3 Potion of Healing / Spell Scroll of Hold Person / Spell Scroll of Fireball
+Stones: 3 agates (30gp) / Jade Statuette (40gp) / Semiprecious Stones (50gp) / Gold Earring Ruby (30gp) / 5 Carmelians (10gp)
+Misc: Rare Alchemical Reagents (75gp to alchemist or apothecary)
+Equipment (Total = 657gp): 
+Hide armor (10gp) / Shield (10gp) / Morningstar (15gp) || Hobgoblin (x6)
+Leather Armor (10gp) / Scimitar (25gp) || Redbrand Ruffian (x3)
+chain shirt (50gp) / shield (10gp) / scimitar (25gp) || Goblin Boss (x3)
+Leather armor (10gp) / scimitar (25gp) || Golbin (x15)

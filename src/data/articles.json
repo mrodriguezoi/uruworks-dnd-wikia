@@ -28,11 +28,11 @@
         },
         {
           "title": "Busqueda de la Cueva del Oleaje:",
-          "text": "Tras la erupcion del Monte Hotenow, Nundro y sus hermanos se embarcaron en una expedición para redescubrir la Cueva del Oleaje, un lugar legendario que habia sido perdido en la historia. La cueva era conocida por su riqueza mineral, notablemente mithril y platino, asi como por sus propiedades mágicas. Los hermanos creian que los grandes terremotos causados por la erupcion ayudarian en su busqueda de la Cueva, posiblemente generando nuevas entradas o revelando caminos ocultos."
+          "text": "Tras la erupción del Monte Hotenow, Nundro y sus hermanos se embarcaron en una expedición para redescubrir la Cueva del Oleaje, un lugar legendario que había sido perdido en la historia. La cueva era conocida por su riqueza mineral, notablemente mithril y platino, asi como por sus propiedades mágicas. Los hermanos creían que los grandes terremotos causados por la erupción ayudarian en su busqueda de la Cueva, posiblemente generando nuevas entradas o revelando caminos ocultos."
         },
         {
           "title": "Encuentro en Neverwinter:",
-          "text": "Gundren contrató a los aventureros para llevar un cargamento de suministros a Phandalin. En el camino la carreta sufrio un accidente, y el enano se adelanto con su amigo Sildar Hallwinter para llegar a Phandalin, ansioso por ver a sus hermanos."
+          "text": "Gundren contrató a los aventureros para llevar un cargamento de suministros a Phandalin. En el camino la carreta sufrió un accidente, y el enano se adelantó con su amigo Sildar Hallwinter para llegar a Phandalin, ansioso por ver a sus hermanos."
         },
         {
           "text": "Sin embargo, Gundren fue emboscado por goblins y secuestrado. Los aventureros que lo escoltaban encontraron sus caballos y, tras sobrevivir a una emboscada de goblins, siguieron el rastro de los secuestradores hasta la guarida de estos, donde encontraron a Sildar secuestrado. El paradero actual de Gundren es desconocido."
@@ -81,7 +81,7 @@
         { "text": "El más joven de los tres hermanos enanos que redescubrieron la Cueva del Oleaje." },
         {
           "title": "Busqueda de la Cueva del Oleaje:",
-          "text": "Tras la erupcion del Monte Hotenow, Nundro y sus hermanos se embarcaron en una expedición para redescubrir la Cueva del Oleaje, un lugar legendario que habia sido perdido en la historia. La cueva era conocida por su riqueza mineral, notablemente mithril y platino, asi como por sus propiedades mágicas. Los hermanos creian que los grandes terremotos causados por la erupcion ayudarian en su busqueda de la Cueva, posiblemente generando nuevas entradas o revelando caminos ocultos."
+          "text": "Tras la erupción del Monte Hotenow, Nundro y sus hermanos se embarcaron en una expedición para redescubrir la Cueva del Oleaje, un lugar legendario que había sido perdido en la historia. La cueva era conocida por su riqueza mineral, notablemente mithril y platino, asi como por sus propiedades mágicas. Los hermanos creían que los grandes terremotos causados por la erupción ayudarian en su busqueda de la Cueva, posiblemente generando nuevas entradas o revelando caminos ocultos."
         }
       ],
       "relatedArticles": [
@@ -127,7 +127,7 @@
         { "text": "El mayor de los tres hermanos enanos que redescubrieron la Cueva del Oleaje." },
         {
           "title": "Busqueda de la Cueva del Oleaje:",
-          "text": "Tras la erupcion del Monte Hotenow, Nundro y sus hermanos se embarcaron en una expedición para redescubrir la Cueva del Oleaje, un lugar legendario que habia sido perdido en la historia. La cueva era conocida por su riqueza mineral, notablemente mithril y platino, asi como por sus propiedades mágicas. Los hermanos creian que los grandes terremotos causados por la erupcion ayudarian en su busqueda de la Cueva, posiblemente generando nuevas entradas o revelando caminos ocultos."
+          "text": "Tras la erupción del Monte Hotenow, Nundro y sus hermanos se embarcaron en una expedición para redescubrir la Cueva del Oleaje, un lugar legendario que había sido perdido en la historia. La cueva era conocida por su riqueza mineral, notablemente mithril y platino, asi como por sus propiedades mágicas. Los hermanos creían que los grandes terremotos causados por la erupción ayudarian en su busqueda de la Cueva, posiblemente generando nuevas entradas o revelando caminos ocultos."
         }
       ],
       "relatedArticles": [
@@ -168,6 +168,10 @@
         },
         {
           "text": "Cuando Phandalin fue reestablecido a finales del siglo XV DR, al principio no tenía un gobierno realmente funcional, y la Bolsa de Mineros de Phandalin comenzó a actuar como un centro de registro para las reclamaciones mineras locales. Los habitantes también elegían anualmente a un 'Maestro del Pueblo' que actuaba como juez y mediador, así como mantenía los registros del pueblo. En 1491 DR, Harbin Wester era el Maestro del Pueblo perenne."
+        },
+        {
+          "title": "Ocupacion por los Rufianes de la Marca Roja",
+          "text": "En 1491 DR, los Rufianes de la Marca Roja, una banda de bandidos liderada por el malvado Glasstaff, ocupó el pueblo. La banda se había establecido en la mansión en ruinas en la colina al este del pueblo, y había estado extorsionando a los comerciantes y a los lugareños."
         }
       ],
       "relatedArticles": [
@@ -605,7 +609,7 @@
         },
         {
           "title": "Encuentro en Neverwinter:",
-          "text": "Gundren contrató a los aventureros para llevar un cargamento de suministros a Phandalin. En el camino la carreta sufrio un accidente, y el enano se adelanto con su amigo Sildar Hallwinter para llegar a Phandalin, ansioso por ver a sus hermanos."
+          "text": "Gundren contrató a los aventureros para llevar un cargamento de suministros a Phandalin. En el camino la carreta sufrió un accidente, y el enano se adelantó con su amigo Sildar Hallwinter para llegar a Phandalin, ansioso por ver a sus hermanos."
         },
         {
           "text": "Sin embargo, Gundren fue emboscado por goblins y secuestrado. Los aventureros que lo escoltaban encontraron sus caballos y, tras sobrevivir a una emboscada de goblins, siguieron el rastro de los secuestradores hasta la guarida de estos, donde encontraron a Sildar secuestrado. El paradero actual de Gundren es desconocido."
@@ -623,5 +627,354 @@
       ]
     },
     "category": "historia"
+  },
+  {
+    "slug": "redbrand-ruffians",
+    "title": "Rufianes de la Marca Roja",
+    "content": {
+      "sidebar": {
+        "organizationDetails": {
+          "type": "Banda de Bandidos",
+          "location": "Phandalin",
+          "reach": "Local",
+          "status": "Disuelto"
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Los Rufianes de la Marca Roja eran una banda de bandidos que ocuparon el pueblo de Phandalin en 1491 DR."
+        },
+        {
+          "title": "Historia:",
+          "text": "Los Rufianes de la Marca Roja se establecieron en Phandalin en 1491 DR. La banda estaba liderada por Glasstaff, un malvado mago renegado. Los Rufianes de la Marca Roja ocuparon la mansión en ruinas en la colina al este del pueblo, y habían estado extorsionando a los comerciantes y a los lugareños."
+        },
+        {
+          "text": "Los Rufianes de la Marca Roja habían sembrado el miedo y la violencia en la comunidad. Los aventureros que llegaron a Phandalin se enfrentaron a los Rufianes de la Marca Roja, y finalmente lograron derrotar a la banda y liberar el pueblo de su control."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Phandalin",
+          "slug": "phandalin"
+        }
+      ]
+    },
+    "category": "organizaciones"
+  },
+  {
+    "slug": "freda",
+    "title": "Freda",
+    "content": {
+      "sidebar": {
+        "characterDetails": {
+          "status": "Viva",
+          "alignment": "Neutral",
+          "race": "Gnoma",
+          "relationships": [
+            {
+              "with": "Elsa",
+              "type": "Amiga"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        { "text": "Una vieja tejedora Gnoma, habitante de Phandalin." },
+        {
+          "text": "Durante la ocupacion de los Rufianes de la Marca Roja, Freda solia frecuentar la Taverna durante la noche para hacerle comañia a Elsa, la tabernera. A pesar de su avanzada edad, Freda es una tejedora habilidosa y ha sido capaz de mantenerse a si misma durante los tiempos dificiles."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "slug": "elsa",
+          "title": "Elsa"
+        }
+      ]
+    },
+    "category": "personajes"
+  },
+  {
+    "slug": "elsa",
+    "title": "Elsa",
+    "content": {
+      "sidebar": {
+        "characterDetails": {
+          "status": "Viva",
+          "alignment": "Neutral",
+          "race": "Enana",
+          "relationships": [
+            {
+              "with": "Freda",
+              "type": "Amiga"
+            },
+            {
+              "with": "Toblen Stonehill",
+              "type": "Empleador"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        { "text": "Una tavernera Enana, habitante de Phandalin y empleada de Toblen Stonehill." },
+        {
+          "text": "Durante la ocupacion de los Rufianes de la Marca Roja, varios de sus amigos le hacian compañia durante la noche en la Taverna. A pesar de la situacion, Elsa se mantuvo firme y continuo trabajando en la Taverna, sirviendo a los clientes y manteniendo un ambiente agradable para los habitantes de Phandalin."
+        },
+        {
+          "text": "Secretamente envio una carta a su hermana en Neverwinter, una sacerdotisa, pidiendo ayuda para liberar a Phandalin de los Rufianes de la Marca Roja."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "slug": "elsa",
+          "title": "Elsa"
+        },
+        {
+          "slug": "toblen-stonehill",
+          "title": "Toblen Stonehill"
+        }
+      ]
+    },
+    "category": "personajes"
+  },
+  {
+    "slug": "toblen-stonehill",
+    "title": "Toblen Stonehill",
+    "content": {
+      "sidebar": {
+        "characterDetails": {
+          "status": "Vivo",
+          "alignment": "Neutral",
+          "race": "Humano",
+          "relationships": [
+            {
+              "with": "Elsa",
+              "type": "Empleado"
+            },
+            {
+              "with": "Pip",
+              "type": "Hijo"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        { "text": "Dueño de la Taverna de Phandalin, un hombre amable y generoso." },
+        {
+          "text": "Toblen es un hombre amable y generoso, conocido por su hospitalidad y su buen humor. Durante la ocupacion de los Rufianes de la Marca Roja, Toblen continuo trabajando en la Taverna, sirviendo a los clientes y manteniendo un ambiente agradable para los habitantes de Phandalin."
+        },
+        {
+          "text": "Toblen es el padre de Pip, un joven que ayuda en la Taverna y es muy querido por los habitantes de Phandalin."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "slug": "pip-stonehill",
+          "title": "Pip Stonehill"
+        },
+        {
+          "slug": "elsa",
+          "title": "Elsa"
+        }
+      ]
+    },
+    "category": "personajes"
+  },
+  {
+    "slug": "pip-stonehill",
+    "title": "Pip Stonehill",
+    "content": {
+      "sidebar": {
+        "characterDetails": {
+          "status": "Vivo",
+          "alignment": "Admirador",
+          "race": "Humano",
+          "relationships": [
+            {
+              "with": "Toblen Stonehill",
+              "type": "Padre"
+            },
+            {
+              "with": "Carp Alderleaf",
+              "type": "Amigo"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        { "text": "Un joven humano que ayuda en la Taverna de Phandalin." },
+        {
+          "text": "Pip es un joven amable y trabajador, conocido por su diligencia y su buen humor. Durante la ocupacion de los Rufianes de la Marca Roja, Pip continuo ayudando a su padre en la Taverna, sirviendo a los clientes y manteniendo un ambiente agradable para los habitantes de Phandalin."
+        },
+        {
+          "text": "Pip es un aficionado de la historias de aventureros, y los nuevos clientes de la Taberna le llaman mucho la atencion."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "slug": "toblen-stonehill",
+          "title": "Toblen Stonehill"
+        },
+        {
+          "slug": "carp-alderleaf",
+          "title": "Carp Alderleaf"
+        }
+      ]
+    },
+    "category": "personajes"
+  },
+  {
+    "slug": "carp-alderleaf",
+    "title": "Carp Alderleaf",
+    "content": {
+      "sidebar": {
+        "characterDetails": {
+          "status": "Vivo",
+          "alignment": "Neutral",
+          "race": "Mediano",
+          "relationships": [
+            {
+              "with": "Qelline Alderleaf",
+              "type": "Madre"
+            },
+            {
+              "with": "Pip Stonehill",
+              "type": "Amigo"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        { "text": "Un joven mediano, hijo de Qelline Alderleaf." },
+        {
+          "text": "Carp es un joven curioso y aventurero, conocido por su entusiasmo y su imaginacion. Durante la ocupacion de los Rufianes de la Marca Roja, Carp continuo ayudando a su madre en la granja, manteniendo el hogar y cuidando de los animales."
+        },
+        {
+          "text": "Carp es un amigo cercano de Pip, y juntos disfrutan de las historias de aventureros y de explorar los alrededores de Phandalin."
+        },
+        {
+          "text": "Durante un juego de escondidas con Pip, Carp descubrio una cueva secreta en el bosque, de la que vio salir varios Rufianes."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "slug": "qelline-alderleaf",
+          "title": "Qelline Alderleaf"
+        },
+        {
+          "slug": "pip-stonehill",
+          "title": "Pip Stonehill"
+        }
+      ]
+    },
+    "category": "personajes"
+  },
+  {
+    "slug": "qelline-alderleaf",
+    "title": "Qelline Alderleaf",
+    "content": {
+      "sidebar": {
+        "characterDetails": {
+          "status": "Viva",
+          "alignment": "Neutral",
+          "race": "Mediana",
+          "relationships": [
+            {
+              "with": "Carp Alderleaf",
+              "type": "Hijo"
+            },
+            {
+              "with": "Daren Edermath",
+              "type": "Vecino"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Una mediana granjera, madre de Carp Alderleaf, y una de los habitantes mas antiguos de Phandalin, estando ahi practicamente desde su fundación."
+        },
+        {
+          "text": "Qelline es una mujer amable y trabajadora, conocida por su hospitalidad y su buen humor. Durante la ocupacion de los Rufianes de la Marca Roja, Qelline continuo trabajando en la granja, cuidando de los animales y manteniendo el hogar."
+        },
+        {
+          "text": "Qelline es una madre cariñosa y dedicada, y se preocupa profundamente por el bienestar de su hijo Carp."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "slug": "carp-alderleaf",
+          "title": "Carp Alderleaf"
+        }
+      ]
+    },
+    "category": "personajes"
+  },
+  {
+    "slug": "daren-edermath",
+    "title": "Daren Edermath",
+    "content": {
+      "sidebar": {
+        "characterDetails": {
+          "status": "Vivo",
+          "alignment": "Neutral",
+          "race": "Elfo (Drow)",
+          "relationships": [
+            {
+              "with": "Qelline Alderleaf",
+              "type": "Vecino"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Un aventurero elfo oscuro retirado que vive en Phandalin."
+        },
+        {
+          "text": "No mucho es conocido sobre el, pero la gente de Phandalin lo aprecia sin prestarle atencion a su raza. Los Rufianes de la Marca Roja lo respetan y no se meten con el."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "slug": "qelline-alderleaf",
+          "title": "Qelline Alderleaf"
+        }
+      ]
+    },
+    "category": "personajes"
+  },
+  {
+    "slug": "barthen",
+    "title": "Barthen",
+    "content": {
+      "sidebar": {
+        "characterDetails": {
+          "status": "Vivo",
+          "alignment": "Neutral",
+          "race": "Gnoma",
+          "relationships": [
+            {
+              "with": "Gundren Rockseeker",
+              "type": "Cliente Recurrente"
+            }
+          ]
+        }
+      },
+      "mainContentArray": [
+        {
+          "text": "Una comerciante gnoma que vive en Phandalin."
+        },
+        {
+          "text": "Barthen es un amigo cercano de Gundren Rockseeker, y juntos han realizado varios negocios juntos. Gundren le informó a Barthen sobre su viaje a Neverwinter, y le pidió que guardara sus suministros cuando llegara."
+        }
+      ],
+      "relatedArticles": [
+        {
+          "slug": "gundren-rockseeker",
+          "title": "Gundren Rockseeker"
+        }
+      ]
+    },
+    "category": "personajes"
   }
 ]
