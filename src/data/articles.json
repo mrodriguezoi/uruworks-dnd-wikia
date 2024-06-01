@@ -172,6 +172,9 @@
         {
           "title": "Ocupacion por los Rufianes de la Marca Roja",
           "text": "En 1491 DR, los Rufianes de la Marca Roja, una banda de bandidos liderada por el malvado Glasstaff, ocupó el pueblo. La banda se había establecido en la mansión en ruinas en la colina al este del pueblo, y había estado extorsionando a los comerciantes y a los lugareños."
+        },
+        {
+          "text": "Tras la llegada de los aventureros que escoltaban a Gundren Rockseeker, los Rufianes de la Marca Roja fueron disueltos y Glasstaff fue ejecutado. El pueblo fue liberado y la paz fue restaurada."
         }
       ],
       "relatedArticles": [
@@ -198,6 +201,10 @@
       "mainContentArray": [
         {
           "text": "Un acuerdo comercial entre los colonos humanos de Phandalin y los gnomos y enanos de la Cueva del Oleaje, establecido para explotar los recursos naturales y el potencial mágico de la cueva. La asociación se disolvió cuando la cueva fue invadida por orcos en 951 DR. El pacto lleva el nombre del pueblo de Phandalin, que era el asentamiento más cercano a la mina."
+        },
+
+        {
+          "text": "El pacto mantuvo relaciones comerciales en la region, se conservaron algunos registros comerciales y se sabe que sacerdotes de Lathander encargaron una maza encantada."
         },
         {
           "title": "Historia:",
@@ -248,7 +255,13 @@
         {
           "title": "Encuentro en Neverwinter:",
           "text": "Sildar enlisto la ayuda de uno de sus reclutas para escoltar a Gundren a Phandalin. Sin embargo, la carreta sufrió un accidente en el camino, y Sildar fue capturado por goblins. Los aventureros que lo escoltaban encontraron sus caballos y, tras sobrevivir a una emboscada de goblins, siguieron el rastro de los secuestradores hasta la guarida de estos, donde encontraron a Sildar secuestrado."
-        }
+        },
+        {
+          "title": "Traición de Iarno Albrek:",
+          "text": "Mientras se recuperaba de sus heridas, los aventureros se ocuparon de los Rufianes de la Marca Roja y de Glasstaff, quien resultó ser Iarno Albrek, el compañero de Sildar. Iarno había traicionado a la Alianza de los Lords y había fundado los Rufianes de la Marca Roja, una banda de bandidos que ocupó Phandalin y extorsionó a los comerciantes y a los lugareños. Iarno fue ejecutado antes de que pudiera ser interrogado. Sildar se sintió profundamente herido por esta traición."
+        },
+        {
+          "text": "Sildar se quedó en Phandalin para ayudar a restaurar el orden y la prosperidad en la región, ofreciendo sus influencias para establecer una guardia. También se ofreció a ayudar a los aventureros a encontrar a Gundren."}
       ],
       "relatedArticles": [
         {
@@ -305,20 +318,27 @@
     "content": {
       "sidebar": {
         "characterDetails": {
-          "status": "Vivo",
+          "status": "Muerto",
           "alignment": "Neutral",
           "race": "Humano",
           "relationships": [
             {
               "with": "Sildar Hallwinter",
-              "type": "Compañero de Gremio"
+              "type": "Ex-compañero de Gremio"
             }
           ]
         }
       },
       "mainContentArray": [
         {
-          "text": "Iarno Albrek es un mago humano y miembro de la Alianza de los Lords. Fue enviado a Phandalin para establecer orden en la región. También tenía la tarea de averiguar qué había sucedido con la Forja de los Hechizos, y asegurarse de que la mina fuera reabierta."
+          "text": "Iarno Albrek era un mago humano y miembro de la Alianza de los Lords. Fue enviado a Phandalin para establecer orden en la región. También tenía la tarea de averiguar qué había sucedido con la Forja de los Hechizos, y asegurarse de que la mina fuera reabierta."
+        },
+        {
+          "title": "Traición a la Alianza:",
+          "text": "En algun momento Iarno abandonó su misión y fundó los Rufianes de la Marca Roja, una banda de bandidos que ocupó Phandalin y extorsionó a los comerciantes y a los lugareños. Iarno adoptó el alias de 'Glasstaff' y se estableció en la mansión en ruinas en la colina al este del pueblo."
+        },
+        {
+          "text": "Iarno fue descubierto por los aventureros que escoltaban a Gundren Rockseeker, y fue ejecutado antes de que pudiera ser interrogado. Su muerte llevó a la disolución de los Rufianes de la Marca Roja y a la liberación de Phandalin. En su guarida, los aventureros encontraron una carta que informaba a Iarno de los aventureros, y le ordenaba detenerlos. Esta carta estaba firmada con un sello de una Araña Negra."
         }
       ],
       "relatedArticles": [
@@ -465,6 +485,9 @@
       "mainContentArray": [
         {
           "text": "Thundertree era un pequeño pueblo situado en el Bosque de Neverwinter, justo al norte de la ciudad de Neverwinter. El pueblo fue abandonado tras la erupción del Monte Hotenow, que causó una destrucción generalizada en la zona."
+        },
+        {
+          "text": "Los antepasados de Mirna Dendrar, una mujer que vivía en Phandalin, vivían en Thundertree. La familia de Mirna tenía una tienda de alquimia, y su familia instalo un compartimento secreto en los estantes, donde guardaban ingredientes valiosos."
         }
       ],
       "relatedArticles": [
@@ -650,6 +673,10 @@
         },
         {
           "text": "Los Rufianes de la Marca Roja habían sembrado el miedo y la violencia en la comunidad. Los aventureros que llegaron a Phandalin se enfrentaron a los Rufianes de la Marca Roja, y finalmente lograron derrotar a la banda y liberar el pueblo de su control."
+        },
+        {
+          "title": "Disolución:",
+          "text": "Los Rufianes de la Marca Roja fueron disueltos después de la muerte de su líder, Glasstaff, quien resultó ser Iarno Albrek, un mago renegado y ex miembro de la Alianza de los Lords. La muerte de Glasstaff llevó a la disolución de la banda y a la liberación de Phandalin."
         }
       ],
       "relatedArticles": [
@@ -965,7 +992,7 @@
           "text": "Una comerciante gnoma que vive en Phandalin."
         },
         {
-          "text": "Barthen es un amigo cercano de Gundren Rockseeker, y juntos han realizado varios negocios juntos. Gundren le informó a Barthen sobre su viaje a Neverwinter, y le pidió que guardara sus suministros cuando llegara."
+          "text": "Barthen es una amiga cercano de Gundren Rockseeker, y juntos han realizado varios negocios juntos. Gundren le informó a Barthen sobre su viaje a Neverwinter, y le pidió que guardara sus suministros cuando llegara."
         }
       ],
       "relatedArticles": [
@@ -976,5 +1003,354 @@
       ]
     },
     "category": "personajes"
+  },
+  {
+    "slug":"halia-thornton",
+    "title":"Halia Thornton",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Viva",
+          "alignment":"Neutral",
+          "race":"Humana"
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Halia Thornton es una mujer humana de mediana edad que vive en Phandalin. Es una mujer de negocios astuta y ambiciosa, y es conocida por su habilidad para obtener información y manipular a los demás para lograr sus objetivos."
+        },
+        {
+          "text":"Halia es la propietaria de la Casa de Intercambio de Phandalin, una tienda de suministros generales y una oficina de correos. La Casa de Intercambio es un lugar popular para los aventureros y comerciantes que visitan Phandalin, y Halia ha establecido una red de contactos en toda la región."
+        },
+        {
+          "text":"Halia es una figura controvertida en Phandalin. Algunos la ven como una empresaria exitosa y una líder comunitaria, mientras que otros la consideran una manipuladora sin escrúpulos que solo busca su propio beneficio. A pesar de su reputación, Halia es una aliada valiosa para aquellos que saben cómo ganarse su favor."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"phandalin",
+          "title":"Phandalin"
+        }
+      ]
+    },
+    "category":"personajes"
+  },
+  {
+    "slug":"sister-garaele",
+    "title":"Hermana Garaele",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Viva",
+          "alignment":"Neutral",
+          "race":"Humana",
+          "relationships":[
+            {
+              "with":"Qelline Alderleaf",
+              "type":"Amiga"
+            }
+          ]
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Hermana Garaele es una sacerdotisa humana que vive en Phandalin. Es una mujer piadosa y compasiva, y es conocida por su dedicación a su fe y su comunidad."
+        },
+        {
+          "text":"Hermana Garaele es la sacerdotisa de Tymora, la diosa de la suerte y la fortuna. Ella ofrece servicios religiosos y consejería a los habitantes de Phandalin, y es una figura respetada en la comunidad."
+        },
+        {
+          "text":"Hermana Garaele es una amiga cercana de Qelline Alderleaf, y las dos mujeres comparten una profunda amistad y respeto mutuo. Hermana Garaele es una aliada valiosa para aquellos que buscan orientación espiritual y apoyo emocional en tiempos de necesidad."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"qelline-alderleaf",
+          "title":"Qelline Alderleaf"
+        },
+        {
+          "slug":"phandalin",
+          "title":"Phandalin"
+        }
+      ]
+    },
+    "category":"personajes"
+  },
+  {
+    "slug":"linene-graywind",
+    "title":"Linene Graywind",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Viva",
+          "alignment":"Neutral",
+          "race":"Humana",
+          "relationships":[
+            {
+              "with":"Barthen",
+              "type":"Amiga"
+            }
+          ]
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Linene Graywind es una mujer humana de mediana edad que vive en Phandalin. Es una comerciante exitosa y una experta en la compra y venta de armas y armaduras."
+        },
+        {
+          "text":"Linene es la encargada de la sucursal del Lionshield Coster de Phandalin, una tienda de armas, armaduras y suministros de aventureros. La tienda de Linene es un lugar popular para los aventureros y comerciantes que visitan Phandalin."
+        },
+        {
+          "text":"Linene es una amiga cercana de Barthen, la comerciante gnoma de Phandalin, y los dos han trabajado juntos en varios negocios. Linene es una figura respetada en la comunidad y es conocida por su honestidad y su integridad en los negocios."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"barthen",
+          "title":"Barthen"
+        },
+        {
+          "slug":"phandalin",
+          "title":"Phandalin"
+        }
+      ]
+    },
+    "category":"personajes"
+  },
+  {
+    "slug":"lionshield-coster",
+    "title":"Lionshield Coster",
+    "content":{
+      "sidebar":{
+        "organizationDetails":{
+          "type":"Comerciantes de Armas y Armaduras",
+          "location":"Costa de la Espada",
+          "reach":"Regional",
+          "status":"Activo"
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"El Lionshield Coster es organización comercial de armas y armaduras que opera en toda la región."
+        },
+        {
+          "text":"La sucursal de Phandalin es administrada por Linene Graywind, una comerciante humana experta en la compra y venta de armas y armaduras. La tienda es un lugar popular para los aventureros y comerciantes que visitan Phandalin."
+        },
+        {
+          "text":"El Lionshield Coster es conocido por su amplia selección de armas y armaduras de alta calidad, y es una fuente confiable de suministros para los aventureros que buscan equipo de calidad para sus viajes."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"linene-graywind",
+          "title":"Linene Graywind"
+        },
+        {
+          "slug":"phandalin",
+          "title":"Phandalin"
+        }
+      ]
+    },
+    "category":"organizaciones"
+  },
+  {
+    "slug":"mirna-dendrar",
+    "title":"Mirna Dendrar",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Viva",
+          "alignment":"Neutral",
+          "race":"Humana",
+          "relationships":[
+            {
+              "with":"Nars",
+              "type":"Hijo"
+            },
+            {
+              "with":"Thel Dendrar",
+              "type":"Esposo"
+            },
+            {
+              "with":"Nelsa",
+              "type":"Hija"
+            }
+          ]
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Mirna Dendrar es una mujer humana que vive en Phandalin. Es una madre cariñosa y dedicada, y es conocida por su valentía y determinación."
+        },
+        {
+          "text":"Mirna es la madre de Nars y Nelsa, y la viuda de Thel Dendrar. La familia Dendrar fue atacada por los bandidos de la Marca Roja, y Thel fue asesinado durante el ataque."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"nars",
+          "title":"Nars"
+        },
+        {
+          "slug":"thel-dendrar",
+          "title":"Thel Dendrar"
+        },
+        {
+          "slug":"nelsa",
+          "title":"Nelsa"
+        }
+      ]
+    },
+    "category":"personajes"
+  },
+  {
+    "slug":"nars",
+    "title":"Nars",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Vivo",
+          "alignment":"Neutral",
+          "race":"Humano",
+          "relationships":[
+            {
+              "with":"Mirna Dendrar",
+              "type":"Madre"
+            },
+            {
+              "with":"Thel Dendrar",
+              "type":"Padre"
+            },
+            {
+              "with":"Nelsa",
+              "type":"Hermana"
+            }
+          ]
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Nars es un joven humano que vive en Phandalin. Es un chico valiente y decidido, y es conocido por su lealtad a su familia y su comunidad."
+        },
+        {
+          "text":"Nars es el hijo de Mirna y Thel Dendrar, y el hermano mayor de Nelsa. La familia Dendrar fue atacada por los bandidos de la Marca Roja, y Thel fue asesinado durante el ataque."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"mirna-dendrar",
+          "title":"Mirna Dendrar"
+        },
+        {
+          "slug":"thel-dendrar",
+          "title":"Thel Dendrar"
+        },
+        {
+          "slug":"nelsa",
+          "title":"Nelsa"
+        }
+      ]
+    },
+    "category":"personajes"
+  },
+  {
+    "slug":"nelsa",
+    "title":"Nelsa",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Viva",
+          "alignment":"Neutral",
+          "race":"Humana",
+          "relationships":[
+            {
+              "with":"Mirna Dendrar",
+              "type":"Madre"
+            },
+            {
+              "with":"Thel Dendrar",
+              "type":"Padre"
+            },
+            {
+              "with":"Nars",
+              "type":"Hermano"
+            }
+          ]
+        }
+      }, 
+      "mainContentArray":[
+        {
+          "text":"Nelsa es una joven humana que vive en Phandalin. Es una chica amable y cariñosa, y es conocida por su ingenio y su valentía."
+        },
+        {
+          "text":"Nelsa es la hija de Mirna y Thel Dendrar, y la hermana menor de Nars. La familia Dendrar fue atacada por los bandidos de la Marca Roja, y Thel fue asesinado durante el ataque."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"mirna-dendrar",
+          "title":"Mirna Dendrar"
+        },
+        {
+          "slug":"thel-dendrar",
+          "title":"Thel Dendrar"
+        },
+        {
+          "slug":"nars",
+          "title":"Nars"
+        }
+      ]
+    },
+    "category":"personajes"
+  },
+  {
+    "slug":"thel-dendrar",
+    "title":"Thel Dendrar",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Muerto",
+          "alignment":"Neutral",
+          "race":"Humano",
+          "relationships":[
+            {
+              "with":"Mirna Dendrar",
+              "type":"Esposo"
+            },
+            {
+              "with":"Nars",
+              "type":"Hijo"
+            },
+            {
+              "with":"Nelsa",
+              "type":"Hija"
+            }
+          ]
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Thel Dendrar era un hombre humano que vivía en Phandalin. Era un padre cariñoso y un esposo dedicado, y era conocido por su valentía y su generosidad."
+        },
+        {
+          "text":"Thel era el esposo de Mirna Dendrar, y el padre de Nars y Nelsa. La familia Dendrar fue atacada por los bandidos de la Marca Roja, y Thel fue asesinado durante el ataque."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"mirna-dendrar",
+          "title":"Mirna Dendrar"
+        },
+        {
+          "slug":"nars",
+          "title":"Nars"
+        },
+        {
+          "slug":"nelsa",
+          "title":"Nelsa"
+        }
+      ]
+    },
+  "category":"personajes"
   }
 ]

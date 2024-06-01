@@ -1,7 +1,7 @@
 // global.d.ts
 declare global {
   interface Window {
-    transitionToPage: (href: string) => void;
+    transitionToPage: (event: MouseEvent | SubmitEvent, href: string) => void;
   }
 }
 export {};

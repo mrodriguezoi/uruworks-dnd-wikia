@@ -43,3 +43,5 @@ Hide armor (10gp) / Shield (10gp) / Morningstar (15gp) || Hobgoblin (x6)
 Leather Armor (10gp) / Scimitar (25gp) || Redbrand Ruffian (x3)
 chain shirt (50gp) / shield (10gp) / scimitar (25gp) || Goblin Boss (x3)
 Leather armor (10gp) / scimitar (25gp) || Golbin (x15)
+
+//160 sp, 120 gp, five malachite gems worth 12 gp each

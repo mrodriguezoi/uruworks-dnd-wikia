@@ -48,7 +48,9 @@ import SearchResultItem from "../components/SearchResultItem.astro";
         <ul id="query-results">
             {Object.entries(articlesByCategory).map(([category, articles]) => (
                 <li class="break-inside-avoid p-4 category-container rounded mb-4">
-                    <span onclick=`window.transitionToPage('/categories/${category}')` class="h2 border-b border-black mb-4 block">{`${category[0].toUpperCase()}${category.substring(1)}`}</span>
+                    <a href=`/categories/${category}`>
+                        <span onclick=`window.transitionToPage(event , '/categories/${category}')` class="h2 border-b border-black mb-4 block">{`${category[0].toUpperCase()}${category.substring(1)}`}</span>
+                    </a>
                     <ul class="lg:columns-2">
                         {articles.map((article) => (
                             <SearchResultItem classes="break-inside-avoid" href={`/articles/${article.slug}`} title={article.title} description={article.content.mainContentArray[0].text} />
