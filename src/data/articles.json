@@ -1080,8 +1080,8 @@
     "slug":"linene-graywind",
     "title":"Linene Graywind",
     "content":{
-      "imageUrl":"https://i.ibb.co/VDtJkZp/linene.png",
       "sidebar":{
+        "imageUrl":"https://i.ibb.co/VDtJkZp/linene.png",
         "characterDetails":{
           "status":"Viva",
           "alignment":"Neutral",
