@@ -6,8 +6,8 @@
       "sidebar": {
         "imageUrl": "https://i.ibb.co/CMbbx1T/gundren-rockseeker.webp",
         "characterDetails": {
-          "status": "???",
-          "alignment": "Empleador",
+          "status": "Vivo",
+          "alignment": "Aliado y Socio Comercial",
           "race": "Enano",
           "relationships": [
             {
@@ -36,6 +36,13 @@
         },
         {
           "text": "Sin embargo, Gundren fue emboscado por goblins y secuestrado. Los aventureros que lo escoltaban encontraron sus caballos y, tras sobrevivir a una emboscada de goblins, siguieron el rastro de los secuestradores hasta la guarida de estos, donde encontraron a Sildar secuestrado. El paradero actual de Gundren es desconocido."
+        },
+        {
+          "title":"Rescate:",
+          "text":"Los aventureros que escoltaban a Gundren Rockseeker interrogaron una patrulla de Hobgoblins, y obtuvieron la ubicación del castillo del Rey Grol. Los aventureros asaltaron el castillo en la noche y lograron rescatar a Gundren, dejando escapar a Grol."
+        },
+        {
+          "text":"Tras rescatarlo, Gundren le revelo a los aventureros que el y sus hermanos habian encontrado la Cueva del Oleaje, les ofrecio una parte de las ganancias de la mina por rescatarlo, y les pidio que lo escoltaran a la cueva para recuperar buscar a sus hermanos."
         }
       ],
       "relatedArticles": [
@@ -50,6 +57,10 @@
         {
           "title": "Tharden Rockseeker",
           "slug": "tharden-rockseeker"
+        },
+        {
+          "title": "Rey Grol",
+          "slug": "king-grol"
         }
       ]
     },
@@ -636,6 +647,12 @@
         },
         {
           "text": "Sin embargo, Gundren fue emboscado por goblins y secuestrado. Los aventureros que lo escoltaban encontraron sus caballos y, tras sobrevivir a una emboscada de goblins, siguieron el rastro de los secuestradores hasta la guarida de estos, donde encontraron a Sildar secuestrado. El paradero actual de Gundren es desconocido."
+        },
+        {
+          "title":"Rescate:",
+          "text":"Los aventureros que escoltaban a Gundren Rockseeker interrogaron una patrulla de Hobgoblins, y obtuvieron la ubicación del castillo del Rey Grol. Los aventureros asaltaron el castillo en la noche y lograron rescatar a Gundren, dejando escapar a Grol."
+        },{
+          "text":"Tras rescatarlo, Gundren le revelo a los aventureros que el y sus hermanos habian encontrado la Cueva del Oleaje, les ofrecio una parte de las ganancias de la mina por rescatarlo, y les pidio que lo escoltaran a la cueva para recuperar buscar a sus hermanos."
         }
       ],
       "relatedArticles": [
@@ -1353,5 +1370,69 @@
       ]
     },
   "category":"personajes"
+  },
+  {
+    "slug":"king-grol",
+    "title":"Rey Grol",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Vivo",
+          "alignment":"Enemigo",
+          "race":"Bugbear"
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Rey Grol es un bugbear que lideraba la tribu Cragmaw en la región de la Costa de la Espada."
+        },
+        {
+          "text":"El rey Grol fue empleado por la misma entidad que los Rufianes de la Marca Roja para secuestrar a Gundren Rockseeker. Sin embargo, Grol traicionó a sus empleadores y decidió quedarse con el enano para obtener un rescate más grande."
+        },
+        {
+          "text":"Al enfrentarse a los aventureros que buscaban a Gundren, Grol fue derrotado, y utilizó al enano como moneda de cambio por su vida."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"redbrand-ruffians",
+          "title":"Rufianes de la Marca Roja"
+        }
+      ]
+    },
+    "category":"personajes"
+  },
+  {
+    "slug":"witch-of-the-woods",
+    "title":"La Bruja del Bosque",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Viva",
+          "alignment":"???",
+          "race":"???",
+          "relationships":[
+            { 
+              "with":"Kalanor",
+              "type":"'Madre'"
+            }
+          ]
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"La Bruja del Bosque es una misteriosa figura que habita en los bosques de la Costa de la Espada."
+        },
+        {
+          "text":"Poco se sabe sobre la Bruja del Bosque, salvo que posee poderes mágicos y conocimientos antiguos. La Bruja mantiene una coleccion de objetos magicos y criaturas (vivas o muertas), y parece haber adquirido un interés en el Harengon Toki."
+        },
+        {
+          "text":"La Bruja del Bosque secuestró a Kalanor cuando él era joven, y lo crio como su hijo, a menudo sometiéndolo a duros castigos. Al crecer Kalanor logró escapar de la Bruja, aunque ésta todavia atormenta sus sueños, transformándolos en pesadillas."
+        }
+      ],
+      "relatedArticles":[
+
+      ]},
+      "category": "personajes"
   }
 ]
