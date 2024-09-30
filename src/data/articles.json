@@ -43,6 +43,13 @@
         },
         {
           "text":"Tras rescatarlo, Gundren le revelo a los aventureros que el y sus hermanos habian encontrado la Cueva del Oleaje, les ofrecio una parte de las ganancias de la mina por rescatarlo, y les pidio que lo escoltaran a la cueva para recuperar buscar a sus hermanos."
+        },
+        {
+          "title":"Ataque a la Cueva del Oleaje:",
+          "text": "Escoltado por los aventureros, Gundren llegó a la Cueva del Oleaje, donde encontro el cuerpo de su hermano Tharden. La cueva estaba ocupada por dos grupos: un grupo de bugbears bandidos y changelings, liderados por un misterioso Drow; y los remanentes no muertos de los enanos y gnomos que habian habitado la cueva. Tras un largo dia de peleas, los aventureros lograron derrotar a ambos grupos, re-descubriendo la legendaria Forja de Hechizos, y rescatando a Nundro en el proceso."
+        },
+        {
+          "text":"Tras recuperarse en Phandalin, Gundren y Nundro ofrecieron a los aventureros una parte de las ganancias de la mina, convirtiéndose en socios comerciales."
         }
       ],
       "relatedArticles": [
@@ -84,6 +91,10 @@
             {
               "with": "Tharden Rockseeker",
               "type": "Hermano"
+            },
+            {
+              "with":"Qelline Alderleaf",
+              "type":"'Amiga'"
             }
           ]
         }
@@ -93,6 +104,12 @@
         {
           "title": "Busqueda de la Cueva del Oleaje:",
           "text": "Tras la erupción del Monte Hotenow, Nundro y sus hermanos se embarcaron en una expedición para redescubrir la Cueva del Oleaje, un lugar legendario que había sido perdido en la historia. La cueva era conocida por su riqueza mineral, notablemente mithril y platino, asi como por sus propiedades mágicas. Los hermanos creían que los grandes terremotos causados por la erupción ayudarian en su busqueda de la Cueva, posiblemente generando nuevas entradas o revelando caminos ocultos."
+        },
+        {
+          "text": "Luego de algunas décadas de busqueda, los hermanos finalmente encontraron la Cueva del Oleaje, y se embarcaron en la tarea de reabrir la mina y recuperar la Forja de los Hechizos. Gundren, siendo mas precavido que sus hermanos, regreso a Neverwinter para reunir suministros y equipo, y contratar a un grupo de aventureros para transportar el equipo a Phandalin."
+        },
+        {
+          "text": "Nundro y Tharden fueron sorprendidos por el Drow y sus secuaces, quienes mataron a Tharden y capturaron a Nundro. Eventualmente, Nundro fue rescatado por los aventureros que escoltaban a Gundren, y llevado de vuelta a Phandalin."
         }
       ],
       "relatedArticles": [
@@ -119,7 +136,7 @@
       "sidebar": {
         "imageUrl": "https://i.ibb.co/tLK94Bx/tharden-rockseeker.webp",
         "characterDetails": {
-          "status": "Vivo",
+          "status": "Muerto",
           "alignment": "Neutral",
           "race": "Enano",
           "relationships": [
@@ -620,6 +637,10 @@
         {
           "title": "Leilon",
           "slug": "leilon"
+        },
+        {
+          "title": "Mystra",
+          "slug": "mystra"
         }
       ]
     },
@@ -754,6 +775,10 @@
             {
               "with": "Toblen Stonehill",
               "type": "Empleador"
+            },
+            {
+              "with":"Gwyn",
+              "type":"Hermana"
             }
           ]
         }
@@ -897,6 +922,9 @@
         },
         {
           "text": "Durante un juego de escondidas con Pip, Carp descubrio una cueva secreta en el bosque, de la que vio salir varios Rufianes."
+        },
+        {
+          "text":"Gracias a una broma de Kalanor y Erevan, Carp cree poder hablar con animales (o por lo menos, la vaca Lola)."
         }
       ],
       "relatedArticles": [
@@ -942,6 +970,9 @@
         },
         {
           "text": "Qelline es una madre cariñosa y dedicada, y se preocupa profundamente por el bienestar de su hijo Carp."
+        },
+        {
+          "text":"Tras el regreso de Nundro y Gundren, Qelline se mostró aliviada por el rescate de Nundro, revelando que tiene una relación cercana con él."
         }
       ],
       "relatedArticles": [
@@ -1408,9 +1439,9 @@
     "content":{
       "sidebar":{
         "characterDetails":{
-          "status":"Viva",
-          "alignment":"???",
-          "race":"???",
+          "status":"Muerta",
+          "alignment":"Enemiga",
+          "race":"Hag",
           "relationships":[
             { 
               "with":"Kalanor",
@@ -1428,11 +1459,111 @@
         },
         {
           "text":"La Bruja del Bosque secuestró a Kalanor cuando él era joven, y lo crio como su hijo, a menudo sometiéndolo a duros castigos. Al crecer Kalanor logró escapar de la Bruja, aunque ésta todavia atormenta sus sueños, transformándolos en pesadillas."
+        },
+        {
+          "title":"'Adquisición' de Harengons:",
+          "text": "Siempre en la busqueda de nuevos 'miembros' para su coleccion, la Bruja ordenó una familia de Harengons a unos esclavistas. Los Harengons fueron capturados y llevados a la guarida de la Bruja, donde fueron sometidos a experimentos y torturas."
+        },
+        {
+          "text":"En el trayecto, el Harengon Tokki logró escapar, y fue encontrado por los aventureros que buscaban a Gundren Rockseeker. Eventualmente, los aventureros lograron derrotar a la Bruja del Bosque, liberando a los Harengons y poniendo fin a su reinado de terror, consiguiendo la venganza de Kalanor."
         }
       ],
       "relatedArticles":[
 
       ]},
       "category": "personajes"
+  },
+  {
+    "slug":"gwyn",
+    "title":"Gwyn",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Vivo",
+          "alignment":"Neutral",
+          "race":"Enana",
+          "relationships":[
+            {
+              "with":"Elsa",
+              "type":"Hermana"
+            }
+          ]
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Gwyn es la hermana de Elsa, la tavernera de Phandalin. Tras recibir una carta de su hermana, donde le informaba de la situacion de los Rufianes de la Marca Roja, Gwyn decidió viajar a Phandalin para ayudar a su hermana y a la comunidad. Sin embargo, al llegar a Phandalin, Gwyn descubrió que los Rufianes habían sido derrotados, y que Elsa estaba a salvo."
+        },
+        {
+          "text":"No deseando desperdiciar su viaje, Gwyn decidió quedarse en Phandalin para estudiar ruinas en la vecinidad, cumpliendo con su tarea como Sacerdotisa de Oghma."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"elsa",
+          "title":"Elsa"
+        }
+      ]
+    },
+    "category":"personajes"
+  },
+  {
+    "slug":"mystra",
+    "title":"Mystra",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Viva",
+          "alignment":"Neutral",
+          "race":"Diosa (Humana anteriormente)"
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Mystra es la diosa de la magia y la hechicería en los Reinos Olvidados. Es una de las deidades más poderosas y veneradas en la región, y es adorada por magos, hechiceros y otros practicantes de la magia."
+        },
+        {
+          "text":"Mystra es conocida por su amor por la magia y su deseo de preservar el equilibrio entre las fuerzas arcanas en los Reinos Olvidados. Ella es una figura benevolente y compasiva, que protege a sus seguidores y les otorga poderes mágicos para que puedan cumplir su destino."
+        },
+        {
+          "text":"Tras los eventos que ocacionaron el Spellplague, Mystra estableció limitaciones sobre la magia de alto nivel, y prohibió el uso de ciertos hechizos y rituales que podrían desestabilizar el tejido de la realidad. Además, ordenó a sus Sacerdotes reparar el tejido magico en las zonas afectadas por el Spellplague."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"spellplague",
+          "title":"Spellplague"
+        }
+      ]
+    },
+    "category":"deidades"
+  },
+  {
+    "slug":"oghma",
+    "title":"Oghma",
+    "content":{
+      "sidebar":{
+        "characterDetails":{
+          "status":"Vivo",
+          "alignment":"Neutral",
+          "race":"Dios"
+        }
+      },
+      "mainContentArray":[
+        {
+          "text":"Oghma es el dios de la sabiduría y el conocimiento en los Reinos Olvidados. Es una de las deidades más veneradas y respetadas en la región, y es adorado por eruditos, bibliotecarios y otros buscadores de la verdad."
+        },
+        {
+          "text":"Oghma es conocido por su amor por el aprendizaje y su deseo de preservar el conocimiento en los Reinos Olvidados. Sus Sacerdotes dedican su vida al estudio de las ruinas y los artefactos antiguos en los Reinos Olvidados, buscando preservar el conocimiento."
+        }
+      ],
+      "relatedArticles":[
+        {
+          "slug":"gwyn",
+          "title":"Gwyn"
+        }
+      ]
+    },
+    "category":"deidades"
   }
 ]
