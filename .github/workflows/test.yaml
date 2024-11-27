@@ -1,0 +1,25 @@
+name: Delete MongoDB on PR close
+
+on:
+  workflow_dispatch:
+
+jobs:
+  delete-database:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Delete database
+        run: |
+          # Step 1: Install MongoDB 6 client
+          wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+          echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+          sudo apt-get update
+          sudo apt-get install -y mongodb-org-shell mongodb-org-tools
+
+          # Step 2: Connect to mongo DB and check if the database exists
+          mongo --version
+
+        shell: bash
