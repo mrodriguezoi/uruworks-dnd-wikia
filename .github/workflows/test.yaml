@@ -13,9 +13,9 @@ jobs:
 
       - name: Delete database
         run: |
-          wget https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu2004-6.0.5.tgz
-          tar -xvf mongodb-shell-linux-x86_64-ubuntu2004-6.0.5.tgz
-          export PATH=$PWD/mongodb-linux-x86_64-ubuntu2004-6.0.5/bin:$PATH
+          wget https://downloads.mongodb.com/compass/mongosh-2.3.4-linux-x64.tgz
+          tar -xvf mongosh-2.3.4-linux-x64.tgz
+          export PATH=$PWD/mongosh-2.3.4-linux-x64/bin:$PATH
           mongo --version
           /usr/bin/mongo --version
 
