@@ -20,6 +20,9 @@ jobs:
           sudo apt-get install -y mongodb-org-shell mongodb-org-tools
 
           # Step 2: Connect to mongo DB and check if the database exists
+          sudo apt list --installed | grep mongodb
+          sudo find / -name "mongo" 2>/dev/null
+          dpkg -L mongodb-org-shell
           /usr/bin/mongo --version
 
         shell: bash
