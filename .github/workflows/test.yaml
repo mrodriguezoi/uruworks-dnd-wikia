@@ -16,7 +16,6 @@ jobs:
           wget https://downloads.mongodb.com/compass/mongosh-2.3.4-linux-x64.tgz
           tar -xvf mongosh-2.3.4-linux-x64.tgz
           export PATH=$PWD/mongosh-2.3.4-linux-x64/bin:$PATH
-          mongo --version
-          /usr/bin/mongo --version
+          mongosh --version
 
         shell: bash
