@@ -13,14 +13,10 @@ jobs:
 
       - name: Delete database
         run: |
-          # Step 1: Install MongoDB 6 client
-          wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
-          echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
-          sudo apt-get update
-          sudo apt-get install -y mongodb-org-shell mongodb-org-tools
-
-          # Step 2: Connect to mongo DB and check if the database exists
-          ls /usr/share/doc/mongodb-org-shell
+          wget https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu2004-6.0.5.tgz
+          tar -xvf mongodb-shell-linux-x86_64-ubuntu2004-6.0.5.tgz
+          export PATH=$PWD/mongodb-linux-x86_64-ubuntu2004-6.0.5/bin:$PATH
+          mongo --version
           /usr/bin/mongo --version
 
         shell: bash
